@@ -153,6 +153,7 @@ export const GlobalStyles = createGlobalStyle`
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
   }
   
   html{
@@ -166,7 +167,6 @@ export const GlobalStyles = createGlobalStyle`
     --lightBrown: #bb996a;
     --opRed: #8c393c;
     --dark: #353333;
-    --manrope-regular: Manrope-regular;
   }
   body{
     background-color: var(--lightGrey);

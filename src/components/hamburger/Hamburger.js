@@ -8,7 +8,7 @@ const HamburgerContainer = styled.div`
   color: #fff;
   right: 100px;
   top: 0;
-  height: 100px;
+  height: 145px;
   width: 60px;
   cursor: pointer;
   -webkit-user-select: none;
@@ -37,6 +37,7 @@ const Icon = styled.span`
   height: 1px;
   display: inline-block;
   transition: all 0.3s;
+  overflow: visible;
   &::before,
   &::after {
     background-color: var(--dark);

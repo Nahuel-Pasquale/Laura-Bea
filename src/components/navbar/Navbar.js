@@ -41,7 +41,7 @@ const Menu = styled.p`
   font-family: 'Manrope-regular';
   position: fixed;
   letter-spacing: 5px;
-  top: 42px;
+  top: 65px;
   right: 200px;
   z-index: 2000;
   @media screen and (max-width: 1024px) {
@@ -62,7 +62,7 @@ const NavMenu = styled.ul`
   align-items: center;
   justify-content: space-around;
   font-size: 0.9rem;
-  font-family: 'RobotoMono-bold';
+  font-family: 'Manrope-Light';
   color: var(--lightGrey);
   flex-direction: column;
 `;
@@ -100,7 +100,7 @@ export const Navbar = () => {
     <NavbarUI isOpen={ctx.isMenuOpen}>
       <NavMenu>
         <Link to="/" onClick={ctx.toggleMenu}>
-          <NavLink>Home</NavLink>
+          <NavLink>Inicio</NavLink>
         </Link>
         <Link to="/trabajos" onClick={ctx.toggleMenu}>
           <NavLink>Trabajos</NavLink>
