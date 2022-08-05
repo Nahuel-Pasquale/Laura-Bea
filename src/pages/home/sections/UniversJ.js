@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
+
 const UniversJContainer = styled.div`
     position: relative;
     width: 100vw;
@@ -9,6 +10,9 @@ const UniversJContainer = styled.div`
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    @media (max-width: 420px) {
+        height: 80vw;
+    }
 `
 
 const UniversJFilter = styled.div`
@@ -35,7 +39,13 @@ const UniversJTitle = styled.h2`
     z-index: 20;
     text-align: justify;
     color: var(--dark);
-
+    @media (max-width: 420px) {
+        font-family: 'Manrope-light';
+        font-size: 1rem;
+        bottom: 0vw;
+        right: 8vw;
+        top: 5vw;
+    }
 `
 
 export const UniversJ = () => {

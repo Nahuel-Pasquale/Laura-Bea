@@ -10,6 +10,13 @@ const HeroContainer = styled.div`
     width: 55%;
     height: 80vh;
     gap: 50px;
+    @media (max-width: 420px) {
+        width: 90%;
+        /* gap: 20px; */
+        padding-left: 8%;
+        justify-content: flex-start;
+        padding-top: 100px;
+    }
 `;
 
 const HeroTitle = styled.h1`
@@ -17,6 +24,9 @@ const HeroTitle = styled.h1`
     font-family: 'Manrope-light';
     text-align: justify;
     word-spacing: 14px;
+    @media (max-width: 420px) {
+        font-size: 0.6rem;
+    }
 `;
 
 const HeroP = styled.p`
@@ -25,6 +35,11 @@ const HeroP = styled.p`
     text-align: justify;
     letter-spacing: 2px;
     line-height: 35px;
+    @media (max-width: 420px) {
+        font-size: 0.55rem;
+        font-family: 'RobotoMono-Regular';
+        line-height: 25px;
+    }
 `
 
 const HeroSignature = styled.p`
@@ -32,17 +47,25 @@ const HeroSignature = styled.p`
     font-family: 'RobotoMono-Bold';
     text-align: right;
     width: 100%;
+    @media (max-width: 420px) {
+        display: none;
+    }
 `
 
 const HeroPNG = styled.div`
     position: absolute;
-    top: 310px;
-    z-index: 9999;
-    right: 66px;
+    top: 20vw;
+    z-index: 999;
+    right: 4vw;
     background: url('images/figura 1 home.png') no-repeat;
     background-size: contain;
     width: 33vw;
     height: 34vw;
+    @media (max-width: 420px) {
+        top: 110vw;
+        width: 60vw;
+        height: 70vw;
+    }
 `
 
 

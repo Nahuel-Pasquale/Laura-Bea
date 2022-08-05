@@ -15,10 +15,17 @@ const LogoContainer = styled.div`
   display: flex;
   align-items: flex-end;
   justify-content: flex-start;
+  @media (max-width: 420px) {
+    height: 14vh;
+    padding-left: 8%;
+  }
 `;
 const Logo = styled.img`
   width: 20%;
   @media (max-width: 1024px) {
+    width: 35%;
+  }
+  @media (max-width: 420px) {
     width: 35%;
   }
 `;

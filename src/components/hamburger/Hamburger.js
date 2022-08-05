@@ -33,6 +33,7 @@ const HamburgerContainer = styled.div`
 const Icon = styled.span`
   position: relative;
   /* background-color: var(--lightGrey); */
+  z-index: 9999;
   width: 50px;
   height: 1px;
   display: inline-block;
@@ -40,7 +41,7 @@ const Icon = styled.span`
   overflow: visible;
   &::before,
   &::after {
-    background-color: var(--dark);
+    background-color: black;
     content: "";
     width: 60px;
     height: 1px;

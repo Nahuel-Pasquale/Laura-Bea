@@ -13,6 +13,10 @@ const FooterContainer = styled.footer`
     width: 100%;
     height: 30vh;
     gap: 50px;
+    @media (max-width: 420px) {
+        flex-direction: column;
+        gap: 20px;
+    }
 `
 
 const FooterLocation = styled.div`
@@ -21,6 +25,9 @@ const FooterLocation = styled.div`
     align-items: left;
     flex-direction: column;
     width: 25%;
+    @media (max-width: 420px) {
+        display: none;
+    }
 `
 
 const FooterLocationP = styled.p`
@@ -35,11 +42,17 @@ const FooterLogo = styled.div`
     justify-content: center;
     align-items: center;
     width: 5%;
+    @media (max-width: 420px) {
+        width: 15%;
+    }
 `
 
 const FooterLogoImg = styled.img`
     width: 100%;
     margin-bottom: 15px;
+    @media (max-width: 420px) {
+        margin-bottom: 0px;
+    }
 `
 
 const FooterRedes = styled.div`
@@ -50,6 +63,10 @@ const FooterRedes = styled.div`
     width: 25%;
     flex-direction: column;
     gap: 10px;
+    @media (max-width: 420px) {
+        width: 80%;
+        padding-left: 0px;
+    }
 `
 
 const FooterRedesIcons = styled.div`
@@ -58,6 +75,10 @@ const FooterRedesIcons = styled.div`
     align-items: center;
     width: 100%;
     gap: 10px;
+    font-size: 2rem;
+    @media (max-width: 420px) {
+        font-size: 1.5rem;
+    }
 `
 
 export const Footer = () => {
@@ -80,9 +101,9 @@ export const Footer = () => {
             </FooterLogo>
             <FooterRedes>
                 <FooterRedesIcons>
-                    <AiOutlineInstagram size="2rem" />
-                    <AiOutlineWhatsApp size="2rem" />
-                    <RiFacebookCircleLine size="2rem" />
+                    <AiOutlineInstagram />
+                    <AiOutlineWhatsApp />
+                    <RiFacebookCircleLine />
                 </FooterRedesIcons>
                 <FooterLocationP size="0.7rem">
                     All rights reserved 2022.
