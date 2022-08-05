@@ -58,6 +58,7 @@ const WorkTitle = styled.h3`
     z-index: 20;
     @media (max-width: 420px) {
         width: 50vw;
+        width: ${(props) => (props.width)};
         font-size: 4vw;
         top: ${(props) => (props.topR)};
         right: ${(props) => (props.rightR)};
@@ -93,7 +94,7 @@ export const Works = () => {
             </Work>
             <Work background="url('images/home/cuadrado flores_Mesa de trabajo 1.jpg')">
                 <WorkFilter />
-                <WorkTitle top="5vw" topR="10vw" left="33vw" leftR="70vw">
+                <WorkTitle top="5vw" topR="10vw" left="33vw" leftR="70vw" width="20%">
                     {'Flores >'}
                 </WorkTitle>
             </Work>
