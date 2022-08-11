@@ -39,12 +39,29 @@ const UniversJTitle = styled.h2`
     z-index: 20;
     text-align: justify;
     color: var(--dark);
+    cursor: pointer;
+    ::before{ 
+        content: "";
+        height: 2px;
+        width: 0%;
+        background: var(--dark);
+        position: absolute;
+        right: 0;
+        bottom: -2px;
+        transition: 0.4s ease-out;
+    }
+    :hover::before{
+        width:  310px;
+    }
     @media (max-width: 420px) {
         font-family: 'Manrope-light';
         font-size: 1rem;
-        bottom: 0vw;
+        bottom: 70vw;
         right: 8vw;
-        top: 5vw;
+        /* top: 5vw; */
+        :hover::before{
+        width:  145px;
+    }
     }
 `
 

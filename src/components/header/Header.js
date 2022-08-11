@@ -31,7 +31,7 @@ const Logo = styled.img`
 `;
 
 
-export const Header = ({ isOpen, handleOpen}) => {
+export const Header = ({ isOpen, handleOpen }) => {
   return (
     <>
       <HeaderUI>

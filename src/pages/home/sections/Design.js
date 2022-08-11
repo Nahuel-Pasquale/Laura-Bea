@@ -54,8 +54,27 @@ const DesignPBold = styled.p`
     font-size: 1.2rem;
     font-family: 'RobotoMono-Bold';
     text-align: right;
+    position: relative;
+    cursor: pointer;
+    ::before{ 
+        content: "";
+        z-index: 9999;
+        height: 2px;
+        width: 0%;
+        background: var(--dark);
+        position: absolute;
+        right: 0;
+        bottom: -2px;
+        transition: 0.4s ease-out;
+    }
+    :hover::before{
+        width: 127px;
+    }
     @media (max-width: 420px) {
         font-size: 0.8rem;
+        :hover::before{
+            width: 86px;
+        }
     }
 `
 const HeroPng = styled.div`

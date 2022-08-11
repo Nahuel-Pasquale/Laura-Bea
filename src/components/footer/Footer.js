@@ -76,12 +76,18 @@ const FooterRedesIcons = styled.div`
     width: 100%;
     gap: 10px;
     font-size: 2rem;
+    cursor: pointer;
     @media (max-width: 420px) {
         font-size: 1.5rem;
     }
 `
 
 export const Footer = () => {
+
+  const openPage = (url) => {
+    window.open(url, '_blank');
+  }
+
   return (
     <>
         <FooterContainer>
@@ -101,9 +107,9 @@ export const Footer = () => {
             </FooterLogo>
             <FooterRedes>
                 <FooterRedesIcons>
-                    <AiOutlineInstagram />
-                    <AiOutlineWhatsApp />
-                    <RiFacebookCircleLine />
+                    <AiOutlineInstagram onClick={() => openPage('https://www.google.com/')} />
+                    <AiOutlineWhatsApp onClick={() => openPage('https://www.google.com/')} />
+                    <RiFacebookCircleLine onClick={() => openPage('https://www.google.com/')} />
                 </FooterRedesIcons>
                 <FooterLocationP size="0.7rem">
                     All rights reserved 2022.

@@ -21,7 +21,7 @@ const NavbarUI = styled.nav`
       ? "translate3d(0px, 0px, 0px)"
       : "translate3d(0px, -110%, 0px)"};
   transition: transform 0.35s cubic-bezier(0.05, 1.04, 0.72, 0.98) 0s;
-  width: 40%;
+  width: 50%;
   z-index: 1998;
   justify-content: center;
   align-items: center;
@@ -36,7 +36,7 @@ const NavbarUI = styled.nav`
   }
 `;
 
-const Menu = styled.p`
+export const Menu = styled.p`
   font-size: 14px;
   font-family: 'Manrope-regular';
   position: fixed;
