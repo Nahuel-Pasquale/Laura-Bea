@@ -12,7 +12,7 @@ const FooterContainer = styled.footer`
   color: var(--lightGrey);
   width: 100%;
   height: 30vh;
-  gap: 70px;
+  gap: 75px;
   @media (max-width: 420px) {
     flex-direction: column;
     gap: 20px;
@@ -60,7 +60,7 @@ const FooterRedes = styled.div`
   justify-content: center;
   align-items: center;
   padding-left: 80px;
-  width: 25%;
+  width: 30%;
   flex-direction: column;
   gap: 10px;
   @media (max-width: 420px) {

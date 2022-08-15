@@ -51,6 +51,7 @@ const Paragraph = styled.p`
   width: ${(props) => props.width};
   text-align: justify;
   margin-top: ${(props) => props.mt};
+  background-color: aliceblue;
 `;
 
 const Image = styled.img`
@@ -69,15 +70,11 @@ const Figure = styled.img`
   margin-left: ${(props) => props.ml};
   margin-top: ${(props) => props.mt};
   display: ${(props) => props.display};
-  position: ${(props) => props.position};
-  top: ${(props) => props.top};
-  right: ${(props) => props.right};
 `;
 
 const MoreContainer = styled.div`
   display: flex;
   justify-content: space-between;
-
   width: 940px;
   height: 400px;
   position: relative;
@@ -163,9 +160,6 @@ const AboutImages = () => {
           <Figure
             src="images/sobre-mi/figura3-sobre-mi.png"
             height={"430px"}
-            position={"absolute"}
-            top={"0"}
-            right={"-50px"}
           ></Figure>
           <Logo src="images/logo Laura B-01.png" />
         </MoreContainer>
