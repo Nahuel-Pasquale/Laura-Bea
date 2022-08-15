@@ -51,7 +51,6 @@ const Paragraph = styled.p`
   width: ${(props) => props.width};
   text-align: justify;
   margin-top: ${(props) => props.mt};
-  background-color: aliceblue;
 `;
 
 const Image = styled.img`
