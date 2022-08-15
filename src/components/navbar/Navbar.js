@@ -37,6 +37,7 @@ const NavbarUI = styled.nav`
 `;
 
 export const Menu = styled.p`
+  display: ${(props) => (props.display)};
   font-size: 14px;
   font-family: 'Manrope-regular';
   position: fixed;
@@ -92,11 +93,11 @@ const NavLink = styled.li`
 //   }
 // `;
 
-export const Navbar = () => {
+export const Navbar = ({display}) => {
   const ctx = useContext(MenuContext);
   return (
     <>
-    <Menu clicked={ctx.isMenuOpen} >MENÚ</Menu>
+    <Menu clicked={ctx.isMenuOpen} display={display} >MENÚ</Menu>
     <NavbarUI isOpen={ctx.isMenuOpen}>
       <NavMenu>
         <Link to="/" onClick={ctx.toggleMenu}>

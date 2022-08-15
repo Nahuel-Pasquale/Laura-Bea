@@ -17,7 +17,7 @@ export const Contacto = ({isOpen, handleOpen}) => {
   
   return (
     <>
-          <Navbar isOpen={isOpen} handleOpen={handleOpen} />
+          <Navbar display={'none'} isOpen={isOpen} handleOpen={handleOpen} />
           <Hamburger />
           <ContactSectionMap />
           <ContactForm />
