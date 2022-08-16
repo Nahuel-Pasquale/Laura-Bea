@@ -26,7 +26,7 @@ const ImageDescription = styled.div`
 `;
 
 const Title = styled.h2`
-  font-family: "Manrope-light";
+  font-family: "RobotoMono-light";
   padding: 0.1rem;
   border-bottom: 2px solid black;
   font-size: 2rem;
@@ -82,6 +82,7 @@ const MoreContainer = styled.div`
 
 const Span = styled.span`
   font-weight: bold;
+  background-color: antiquewhite;
 `;
 
 const Logo = styled.img`
