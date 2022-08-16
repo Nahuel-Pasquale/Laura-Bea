@@ -26,7 +26,7 @@ const ImageDescription = styled.div`
 `;
 
 const Title = styled.h2`
-  font-family: "RobotoMono-light";
+  font-family: "Manrope-light";
   padding: 0.1rem;
   border-bottom: 2px solid black;
   font-size: 2rem;
@@ -76,6 +76,7 @@ const MoreContainer = styled.div`
   justify-content: space-between;
   width: 940px;
   height: 400px;
+
   position: relative;
 `;
 
