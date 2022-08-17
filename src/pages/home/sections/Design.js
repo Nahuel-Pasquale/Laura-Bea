@@ -1,5 +1,5 @@
-import React from 'react'
-import styled from 'styled-components'
+import React from "react";
+import styled from "styled-components";
 
 // const HeroPng = styled.div`
 //     position: absolute;
@@ -113,20 +113,16 @@ const HeroPng = styled.div`
 export const Design = () => {
   return (
     <>
-        <DesignContainer>
-            <HeroPng />
-            <DesignTitle>
-                Diseño de estampas.
-            </DesignTitle>
-            <DesignP>
-                Es el arte de pensar y producir diseños para la
-                confección de prendas, accesorios, objetos de
-                decoración, tapicería y demás productos textiles.
-            </DesignP>
-            <DesignPBold>
-                Mis diseños
-            </DesignPBold>
-        </DesignContainer>
+      <DesignContainer>
+        <HeroPng />
+        <DesignTitle>Diseño de estampas.</DesignTitle>
+        <DesignP>
+          Es el arte de pensar y producir diseños para la confección de prendas,
+          accesorios, objetos de decoración, tapicería y demás productos
+          textiles.
+        </DesignP>
+        <DesignPBold>Mis diseños</DesignPBold>
+      </DesignContainer>
     </>
-  )
-}
+  );
+};
