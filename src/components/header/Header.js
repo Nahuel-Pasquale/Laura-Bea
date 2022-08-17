@@ -9,20 +9,30 @@ const HeaderUI = styled.header`
 
 const LogoContainer = styled.div`
   width: 100%;
-  height: 20vh;
+  height: 14vh;
   padding-left: 10%;
   margin-left: 0;
   display: flex;
   align-items: flex-end;
   justify-content: flex-start;
-  @media (max-width: 420px) {
+  margin-top: 2.6vw;
+  @media (max-width: 1024px) {
     height: 14vh;
     padding-left: 8%;
+    margin-top: 2.4vw;
+  }
+  @media (max-width: 560px) {
+    height: 14vh;
+    padding-left: 8%;
+    margin-top: 4vw;
   }
 `;
 const Logo = styled.img`
   width: 20%;
-  @media (max-width: 1024px) {
+  /* @media (max-width: 1024px) {
+    width: 20%;
+  } */
+  @media (max-width: 720px) {
     width: 35%;
   }
   @media (max-width: 420px) {

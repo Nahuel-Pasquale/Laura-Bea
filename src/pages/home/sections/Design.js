@@ -22,7 +22,15 @@ const DesignContainer = styled.section`
     width: 45%;
     margin-left: 32%;
     height: 43vw;
-    @media (max-width: 420px) {
+    @media (max-width: 1024px) {
+        width: 80%;
+        height: 60vh;
+        margin-left: 10%;
+        gap: 40px;
+        justify-content: flex-start;
+        padding-top: 40px;
+    }
+    @media (max-width: 576px) {
         width: 80%;
         height: 60vh;
         margin-left: 10%;
@@ -34,7 +42,10 @@ const DesignContainer = styled.section`
 const DesignTitle = styled.h2`
     font-size: 2rem;
     font-family: 'Manrope-extralight';
-    @media (max-width: 420px) {
+    @media (max-width: 720px) {
+        font-size: 1.5rem;
+    }
+    @media (max-width: 576px) {
         font-size: 1rem;
     }
 `
@@ -44,7 +55,11 @@ const DesignP = styled.p`
     font-family: 'RobotoMono-light';
     text-align: justify;
     line-height: 45px;
-    @media (max-width: 420px) {
+    @media (max-width: 720px) {
+        font-size: 1.2rem;
+        line-height: 25px;
+    }
+    @media (max-width: 576px) {
         font-size: 0.8rem;
         line-height: 25px;
     }
@@ -70,7 +85,7 @@ const DesignPBold = styled.p`
     :hover::before{
         width: 127px;
     }
-    @media (max-width: 420px) {
+    @media (max-width: 576px) {
         font-size: 0.8rem;
         :hover::before{
             width: 86px;
@@ -86,7 +101,7 @@ const HeroPng = styled.div`
     background-size: contain;
     width: 50vw;
     height: 60vw;
-    @media (max-width: 420px) {
+    @media (max-width: 576px) {
         width: 100vw;
         height: 120vw;
         top: -15vw;

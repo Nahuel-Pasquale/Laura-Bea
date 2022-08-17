@@ -10,7 +10,7 @@ const UniversJContainer = styled.div`
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    @media (max-width: 420px) {
+    @media (max-width: 560px) {
         height: 80vw;
     }
 `
@@ -53,7 +53,7 @@ const UniversJTitle = styled.h2`
     :hover::before{
         width:  310px;
     }
-    @media (max-width: 420px) {
+    @media (max-width: 560px) {
         font-family: 'Manrope-light';
         font-size: 1rem;
         bottom: 70vw;

@@ -7,7 +7,7 @@ const ContenedorWorks = styled.section`
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    @media (max-width: 420px) {
+    @media (max-width: 560px) {
         flex-direction: row-reverse;
     }
 `
@@ -22,7 +22,7 @@ const Work = styled.div`
     background-size: cover;
     width: 50%;
     height: 50vw;
-    @media (max-width: 420px) {
+    @media (max-width: 560px) {
         width: 100%;
         height: 100vw;
     }
@@ -71,7 +71,7 @@ const WorkTitle = styled.h3`
     :hover::before{
         width: ${(props) => (props.hoverWidth)};
     }
-    @media (max-width: 420px) {
+    @media (max-width: 560px) {
         width: 50vw;
         width: ${(props) => (props.widthR)};
         font-size: 4vw;
@@ -89,7 +89,7 @@ const WorkImg = styled.img`
     width: ${(props) => (props.width)};;
     height: ${(props) => (props.height)};;
     background-color: white;
-    @media (max-width: 420px) {
+    @media (max-width: 560px) {
         width: ${(props) => (props.widthR)};
         height: ${(props) => (props.heightR)};
     }
