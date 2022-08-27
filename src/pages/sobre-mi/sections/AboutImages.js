@@ -82,7 +82,6 @@ const MoreContainer = styled.div`
 
 const Span = styled.span`
   font-weight: bold;
-  background-color: antiquewhite;
 `;
 
 const Logo = styled.img`

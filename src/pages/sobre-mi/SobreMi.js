@@ -11,8 +11,8 @@ export const SobreMi = ({ isOpen, handleOpen }) => {
       <Navbar display={"none"} isOpen={isOpen} handleOpen={handleOpen} />
       <Hamburger />
       <AboutHero />
-      <AboutImages />
-      <Footer />
+      {/* <AboutImages />
+      <Footer /> */}
     </>
   );
 };
