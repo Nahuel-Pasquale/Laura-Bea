@@ -11,9 +11,11 @@ const Section = styled.section`
   gap: 100px;
   @media (max-width: 992px) {
     flex-direction: column;
+    margin-top: 25vh;
   }
   @media (max-width: 576px) {
     gap: 70px;
+    margin-top: 20vh;
   }
 `;
 

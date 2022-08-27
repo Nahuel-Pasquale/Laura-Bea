@@ -15,6 +15,12 @@ const ImageSection = styled.div`
   justify-content: center;
   gap: ${(props) => props.gap};
   width: 95%;
+  @media (max-width: 992px) {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+  }
 `;
 
 const ImageDescription = styled.div`
@@ -23,6 +29,12 @@ const ImageDescription = styled.div`
   gap: 3rem;
   width: max(25%, 430px);
   padding-top: 1rem;
+  @media (max-width: 992px) {
+    order: 2;
+    align-items: center;
+    width: min(85%, 450px);
+    padding-top: 0;
+  }
 `;
 
 const Title = styled.h2`
@@ -34,6 +46,14 @@ const Title = styled.h2`
   width: fit-content;
   margin-right: ${(props) => props.margin};
   align-self: ${(props) => props.align};
+  @media (max-width: 992px) {
+    order: ${(props) => props.order};
+    margin: unset;
+  }
+  @media (max-width: 430px) {
+    font-size: 2rem;
+    text-align: center;
+  }
 `;
 
 const Subtitle = styled.h3`
@@ -41,6 +61,10 @@ const Subtitle = styled.h3`
   font-family: "RobotoMono-medium";
   text-align: ${(props) => props.align};
   margin-right: ${(props) => props.margin};
+  @media (max-width: 992px) {
+    order: ${(props) => props.order};
+    margin: unset;
+  }
 `;
 
 const Paragraph = styled.p`
@@ -51,17 +75,33 @@ const Paragraph = styled.p`
   width: ${(props) => props.width};
   text-align: justify;
   margin-top: ${(props) => props.mt};
+  @media (max-width: 992px) {
+    width: ${(props) => props.responsivewidth};
+    margin-top: unset;
+    align-self: ${(props) => props.selfalign};
+  }
 `;
 
 const Image = styled.img`
   max-width: fit-content;
   height: ${(props) => props.height};
+  @media (max-width: 992px) {
+    max-width: unset;
+    height: auto;
+    width: min(90%, 500px);
+  }
 `;
 
 const FigureContainer = styled.div`
   position: relative;
   margin-top: -210px;
   width: max(25%, 430px);
+  @media (max-width: 992px) {
+    position: unset;
+    max-width: unset;
+    margin-top: unset;
+    width: min(90%, 500px);
+  }
 `;
 
 const Figure = styled.img`
@@ -69,6 +109,13 @@ const Figure = styled.img`
   margin-left: ${(props) => props.ml};
   margin-top: ${(props) => props.mt};
   display: ${(props) => props.display};
+  @media (max-width: 992px) {
+    height: unset;
+    width: 95%;
+    margin-left: unset;
+    margin-top: unset;
+    display: ${(props) => props.responsivedisplay};
+  }
 `;
 
 const MoreContainer = styled.div`
@@ -76,8 +123,15 @@ const MoreContainer = styled.div`
   justify-content: space-between;
   width: 940px;
   height: 400px;
-
   position: relative;
+  @media (max-width: 992px) {
+    position: relative;
+    height: auto;
+    width: min(90%, 500px);
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 70px;
+  }
 `;
 
 const Span = styled.span`
@@ -88,6 +142,12 @@ const Logo = styled.img`
   height: 60px;
   position: absolute;
   bottom: 30%;
+  @media (max-width: 992px) {
+    height: unset;
+    width: 40%;
+    bottom: -10%;
+    left: 10%;
+  }
 `;
 
 const AboutImages = () => {
@@ -118,6 +178,7 @@ const AboutImages = () => {
               src="images/sobre-mi/figura-1-sobre-mi.png"
               height={"700px"}
               ml={"-120px"}
+              responsivedisplay={"none"}
             ></Figure>
           </FigureContainer>
 
@@ -133,6 +194,7 @@ const AboutImages = () => {
               height={"400px"}
               ml={"-50px"}
               src="images/sobre-mi/figura-1-sobre-mi.png"
+              responsivedisplay={"flex"}
             ></Figure>
             <Paragraph width={"95%"}>
               En el 2018 me encontré con el Sumi-e y su profesora Julieta
@@ -144,7 +206,11 @@ const AboutImages = () => {
           </ImageDescription>
         </ImageSection>
 
-        <Paragraph width={"940px"} mt={"-130px"}>
+        <Paragraph
+          width={"940px"}
+          mt={"-130px"}
+          responsivewidth={" min(83%, 430px);"}
+        >
           Y así llegamos al aclamado 2020. Pandemia y más allá, la inundación...
           No sé, un tango para mí. Una mezcla de tragedia y arte. Y así fue que
           con Karin Espósito, iniciamos el proyecto de +casa. Ella ceramista, yo
@@ -154,7 +220,7 @@ const AboutImages = () => {
           pinto o dibujo, con el diseño digital en piezas listas para estampar.
         </Paragraph>
         <MoreContainer>
-          <Paragraph>
+          <Paragraph selfalign={"flex-end"}>
             Conoce <Span> +casa arte </Span> {">"}
           </Paragraph>
           <Figure
