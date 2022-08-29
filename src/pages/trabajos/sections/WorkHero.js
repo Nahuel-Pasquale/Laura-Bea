@@ -10,6 +10,12 @@ const Section = styled.section`
   background: url("images/works/banner.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  @media (max-width: 992px) {
+    margin-top: 25vh;
+  }
+  @media (max-width: 576px) {
+    margin-top: 20vh;
+  }
 `;
 
 const Title = styled.h1`
@@ -17,6 +23,9 @@ const Title = styled.h1`
   letter-spacing: 5px;
   font-size: 1.5rem;
   padding: 90px;
+  @media (max-width: 992px) {
+    padding: 30px 50px;
+  }
 `;
 
 const WorkHero = () => {

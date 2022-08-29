@@ -37,6 +37,12 @@ const ImageSection = styled.div`
   @media (max-width: 1280px) {
     margin-top: -10px;
   }
+  @media (max-width: 992px) {
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    width: 80%;
+  }
 `;
 
 const ImageContainer = styled.div`
@@ -48,12 +54,20 @@ const ImageContainer = styled.div`
   @media (max-width: 1280px) {
     min-width: 277px;
   }
+  @media (max-width: 992px) {
+    width: 70%;
+  }
 `;
 
 const Image = styled.img`
   height: ${(props) => (props.height ? props.height : "450px")};
   @media (max-width: 1280px) {
     height: ${(props) => (props.deskHeight ? props.deskHeight : "300px")};
+  }
+  @media (max-width: 992px) {
+    width: ${(props) => (props.width ? props.width : "80%")};
+    align-self: center;
+    height: unset;
   }
 `;
 
@@ -70,6 +84,9 @@ const ImageP = styled.div`
   font-size: 1.1rem;
   text-align: center;
   font-family: "RobotoMono-regular";
+  @media (max-width: 992px) {
+    width: 100%;
+  }
 `;
 
 const ImageBg = styled.div`
@@ -79,6 +96,10 @@ const ImageBg = styled.div`
   align-items: center;
   @media (max-width: 1280px) {
     height: 300px;
+  }
+  @media (max-width: 992px) {
+    width: 60%;
+    align-self: center;
   }
 `;
 
@@ -140,6 +161,7 @@ const Gallery = () => {
               src="images/works/ramillete.jpg"
               height={"330px"}
               deskHeight={"280px"}
+              width={"100%"}
             ></Image>
           </ImageBg>
           <ImageTextContainer>
