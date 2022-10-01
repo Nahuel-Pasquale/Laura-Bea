@@ -6,6 +6,17 @@ const Contact = styled.div`
   padding-top: 15%;
   margin-left: 20%;
   display: flex;
+  @media (max-width: 992px) {
+    
+  }
+  @media (max-width: 576px) {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 `
 
 const ContactInfo = styled.div`
@@ -16,15 +27,37 @@ const ContactInfo = styled.div`
   align-items: flex-start;
   gap: 50px;
   /* justify-content: center; */
+  @media (max-width: 992px) {
+    
+  }
+  @media (max-width: 576px) {
+    width: 70%;
+    height: 60vh;
+    padding: 0;
+    justify-content: center;
+    /* gap: 30px; */
+  }
 `
 
 const ContactInfoH3 = styled.h3`
   font-family: 'Manrope-extralight';
   font-size: 2.5rem;
+  @media (max-width: 992px) {
+    
+  }
+  @media (max-width: 576px) {
+    font-size: 1.5rem;
+  }
 `
 const ContactInfoH4 = styled.h4`
   font-family: 'Manrope-bold';
-  font-size: 1.5rem;
+  font-size: 1.7rem;
+  @media (max-width: 992px) {
+    
+  }
+  @media (max-width: 576px) {
+    font-size: 1.3rem;
+  }
 `
 
 const ContactInfoPContainer = styled.div`
@@ -34,16 +67,35 @@ const ContactInfoPContainer = styled.div`
   align-items: flex-start;
   gap: 20px;
   /* justify-content: center; */
+  @media (max-width: 992px) {
+    
+  }
+  @media (max-width: 576px) {
+    /* font-size: 1.3rem; */
+  }
 `
 const ContactInfoP = styled.p`
   font-family: 'Manrope-regular';
   font-size: 1rem;
+  @media (max-width: 992px) {
+    
+  }
+  @media (max-width: 576px) {
+    font-size: 0.8rem;
+  }
 `
 
 const ContactMap = styled.iframe`
   width: 50%;
   height: 50vh;
   border: none;
+  @media (max-width: 992px) {
+    
+  }
+  @media (max-width: 576px) {
+    width: 100vw;
+    height: 100vw;
+  }
 `
 
 export const ContactSectionMap = () => {

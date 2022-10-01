@@ -32,7 +32,7 @@ const HeroTitle = styled.h1`
 const HeroP = styled.p`
     font-size: 1rem;
     font-family: 'RobotoMono-light';
-    text-align: justify;
+    /* text-align: left; */
     letter-spacing: 2px;
     line-height: 35px;
     @media (max-width: 560px) {

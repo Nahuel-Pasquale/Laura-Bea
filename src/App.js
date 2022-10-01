@@ -20,6 +20,10 @@ export function App() {
           <Route exact path="/sobre-mi" element={<SobreMi />}> </Route>
           <Route exact path="/contacto" element={<Contacto />}> </Route>
           <Route exact path="/trabajos" element={<Trabajos />}> </Route>
+          <Route exact path="/trabajos/estampados" element={<Trabajos />}> </Route>
+          <Route exact path="/trabajos/geometria-zen" element={<Trabajos />}> </Route>
+          <Route exact path="/trabajos/pastizal" element={<Trabajos />}> </Route>
+          <Route exact path="/trabajos/universo-japon" element={<Trabajos />}> </Route>
           <Route path="/*" element={<Navigate replace={true} to="/" />}>  </Route>
         </Routes>
       </Router>

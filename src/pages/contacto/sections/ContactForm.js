@@ -8,12 +8,32 @@ const Consulta = styled.p`
     width: 60%;
     height: 10vh;
     margin-left: 20%;
+    @media (max-width: 992px) {
+
+    }
+    @media (max-width: 576px) {
+        /* width: 80%; */
+        font-size: 1rem;
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 15%;
+    }
 `
 
 const FormContainer = styled.div`
     width: 60%;
     margin-left: 20%;
     display: flex;
+    @media (max-width: 992px) {
+
+    }
+    @media (max-width: 576px) {
+        /* width: 80%; */
+        font-size: 1rem;
+        flex-direction: column-reverse;
+        width: 80%;
+        margin-left: 10%;
+    }
 `
 
 const FormInfo = styled.div`
@@ -24,16 +44,36 @@ const FormInfo = styled.div`
     justify-content: center;
     align-items: flex-start;
     gap: 50px;
+    @media (max-width: 992px) {
+
+    }
+    @media (max-width: 576px) {
+        width: 80%;
+        height: 20vh;
+        margin-top: 25%;
+    }
 `
 
 const FormInfoH3 = styled.h3`
     font-family: 'Manrope-extralight';
     font-size: 2.5rem;
+    @media (max-width: 992px) {
+
+    }
+    @media (max-width: 576px) {
+        font-size: 1.8rem;
+    }
 `
 
 const FormInfoP = styled.p`
     font-family: 'Manrope-bold';
     font-size: 1.5rem;
+    @media (max-width: 992px) {
+
+    }
+    @media (max-width: 576px) {
+        font-size: 1.2rem;
+    }
 `
 
 const Form = styled.form`
@@ -44,6 +84,12 @@ const Form = styled.form`
     justify-content: center;
     align-items: flex-start;
     gap: 20px;
+    @media (max-width: 992px) {
+
+    }
+    @media (max-width: 576px) {
+        width: 100%;
+    }
 `
 
 const FormName = styled.div`

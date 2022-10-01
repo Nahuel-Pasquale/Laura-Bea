@@ -53,7 +53,7 @@ const DesignTitle = styled.h2`
 const DesignP = styled.p`
     font-size: 1.2rem;
     font-family: 'RobotoMono-light';
-    text-align: justify;
+    /* text-align: justify; */
     line-height: 45px;
     @media (max-width: 720px) {
         font-size: 1.2rem;
