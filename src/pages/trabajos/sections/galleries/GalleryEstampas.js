@@ -5,70 +5,92 @@ const GalleryEstampas = () => {
   return (
     <Section>
       <Paragraph>
-        Las piezas de esta serie están realizadas bajo las técnicas mixtas de
-        pintura en acuarela y tinta china.
+      Pinto, fotografío o escaneo, compongo digitalmente, para luego
+      mandar a estampar por sublimación o estampa digital directa sobre
+      papel, papel tapiz, vinilos, PVC, alto impacto, madera y textiles.
+      Estos objetos, que produzco, en una pequeña escala o drop
       </Paragraph>
       <ImageSection border={"1px solid black"}>
         <ImageContainer>
-          <Image src="/images/works/IMG_7264.jpg"></Image>
+        <ImageBg >
+            <Image
+              src="/images/works/estampados/01.JPG"
+              height={"330px"}
+              deskHeight={"280px"}
+              width={"100%"}
+              
+            ></Image>
+          </ImageBg>
+
           <ImageTextContainer>
-            <ImageP>Nombre</ImageP>
-            <ImageP>Técnica</ImageP>
-            <ImageP>Tamaño/acabado</ImageP>
+            <ImageP>Estampa Peonías Pop</ImageP>
+            <ImageP>Sumi-é con tinta y acuarelas sobre papel de arroz.</ImageP>
+            <ImageP>Collage digital realizado con Photoshop</ImageP>
           </ImageTextContainer>
         </ImageContainer>
         <ImageContainer>
-          <Image src="/images/works/IMG_6467.jpg"></Image>
+          <Image src="/images/works/estampados/02.jpg"></Image>
           <ImageTextContainer>
-            <ImageP>Flores de frutal</ImageP>
-            <ImageP>Sumi-e: tinta china sobre papel de arroz</ImageP>
-            <ImageP>20x30cm</ImageP>
+            <ImageP>Pañuelo Peonías Pop</ImageP>
+            <ImageP>Creppe de gasa</ImageP>
+            <ImageP>1,35 x 1,35 cm.</ImageP>
           </ImageTextContainer>
         </ImageContainer>
       </ImageSection>
       <ImageSection border={"1px solid black"}>
         <ImageContainer>
-          <Image src="/images/works/colores-girasol.jpg"></Image>
-          <ImageTextContainer>
-            <ImageP>Colores del girasol</ImageP>
-            <ImageP>Tinta sobre papel de acuarela</ImageP>
-            <ImageP>50x70 cm.</ImageP>
-          </ImageTextContainer>
-        </ImageContainer>
-        <ImageContainer>
-          <Image src="/images/works/girasolcuadro.jpg"></Image>
-          <ImageTextContainer>
-            <ImageP>Girasol</ImageP>
-            <ImageP>Tinta sobre papel de acuarela</ImageP>
-            <ImageP>50x70 cm.</ImageP>
-          </ImageTextContainer>
-        </ImageContainer>
-      </ImageSection>
-      <ImageSection>
-        <ImageContainer>
-          <Image src="/images/works/floreado.jpg"></Image>
-          <ImageTextContainer>
-            <ImageP>Floreado</ImageP>
-            <ImageP>Tinta sobre papel de acuarela 300 grs.</ImageP>
-            <ImageP>16,5 x 24,5 cm.</ImageP>
-          </ImageTextContainer>
-        </ImageContainer>
-        <ImageContainer>
-          <ImageBg>
+        <ImageBg >
             <Image
-              src="/images/works/ramillete.jpg"
+              src="/images/works/estampados/03.jpg"
               height={"330px"}
               deskHeight={"280px"}
               width={"100%"}
+              
             ></Image>
           </ImageBg>
           <ImageTextContainer>
-            <ImageP>Ramillete</ImageP>
-            <ImageP>Sumi-e: acuarela sobre papel de arroz</ImageP>
-            <ImageP>27,5 x 33 cm.</ImageP>
+            <ImageP>Estampa Peonías</ImageP>
+            <ImageP>Manchas de tinta sobre papel para acuarela sin textura. Collage ditgital realizado con Photoshop</ImageP>
+            <ImageP></ImageP>
+          </ImageTextContainer>
+        </ImageContainer>
+        <ImageContainer>
+          <Image src="/images/works/estampados/04.jpg"></Image>
+          <ImageTextContainer>
+            <ImageP>Pañuelo Peonías</ImageP>
+            <ImageP>Satén 100% poliéster</ImageP>
+            <ImageP>1,40 x 1,40 cm.</ImageP>
           </ImageTextContainer>
         </ImageContainer>
       </ImageSection>
+      <ImageSection border={"1px solid black"}>
+        <ImageContainer>
+        <ImageBg >
+            <Image
+              src="/images/works/estampados/05.jpg"
+              height={"330px"}
+              deskHeight={"280px"}
+              width={"100%"}
+              
+            ></Image>
+          </ImageBg>
+          <ImageTextContainer>
+            <ImageP>Estampa Amapolas</ImageP>
+            <ImageP>Dibujo con tinta, pluma y marcadores sobre papel para acuarela. Redibujado digitalmente editado en Illustrator.</ImageP>
+            <ImageP></ImageP>
+          </ImageTextContainer>
+        </ImageContainer>
+        <ImageContainer>
+          <Image src="/images/works/estampados/06.jpg"></Image>
+          <ImageTextContainer>
+            <ImageP>Pañuelo Amapolas</ImageP>
+            <ImageP>Creppe de gasa</ImageP>
+            <ImageP>1,35x 1,35 cm.</ImageP>
+          </ImageTextContainer>
+        </ImageContainer>
+      </ImageSection>
+
+      
     </Section>
   );
 };

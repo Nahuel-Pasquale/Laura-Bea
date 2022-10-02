@@ -18,8 +18,10 @@ const Title = styled.h1`
   letter-spacing: 5px;
   font-size: 1.5rem;
   padding: 90px;
+  text-align: right;
   @media (max-width: 992px) {
-    padding: 30px 50px;
+    padding: 30px;
+    font-size: 1.4rem;
   }
 `;
 const WorkHero = ({title, background}) => {

@@ -47,10 +47,10 @@ const GalleryFlores = () => {
       <ImageSection>
         <ImageContainer>
           <Image src="/images/works/floreado.jpg"></Image>
-          <ImageTextContainer>
-            <ImageP>Floreado</ImageP>
-            <ImageP>Tinta sobre papel de acuarela 300 grs.</ImageP>
-            <ImageP>16,5 x 24,5 cm.</ImageP>
+          <ImageTextContainer de flores>
+            <ImageP>Campo de flores</ImageP>
+            <ImageP>Acuarela sobre papel 300 g.</ImageP>
+            <ImageP>lámina 27,5 x 26 cm.</ImageP>
           </ImageTextContainer>
         </ImageContainer>
         <ImageContainer>
@@ -66,6 +66,100 @@ const GalleryFlores = () => {
             <ImageP>Ramillete</ImageP>
             <ImageP>Sumi-e: acuarela sobre papel de arroz</ImageP>
             <ImageP>27,5 x 33 cm.</ImageP>
+          </ImageTextContainer>
+        </ImageContainer>
+      </ImageSection>
+      <ImageSection border={"1px solid black"}>
+        <ImageContainer>
+        <ImageBg>
+            <Image
+              src="/images/works/flores/01.jpg"
+              height={"330px"}
+              deskHeight={"280px"}
+              width={"100%"}
+            ></Image>
+          </ImageBg>
+          <ImageTextContainer>
+            <ImageP>Peonía en jarrón</ImageP>
+            <ImageP>Tinta y acuarela sobre papel de guía telefónica.</ImageP>
+            <ImageP>Lámina 17,5 x 24,5 cm.</ImageP>
+          </ImageTextContainer>
+        </ImageContainer>
+        <ImageContainer>
+          <Image src="/images/works/flores/02.jpg"></Image>
+          <ImageTextContainer>
+            <ImageP>Diente de león</ImageP>
+            <ImageP>Sumi - e tinta y acuarela sobre papel de arroz.</ImageP>
+            <ImageP>Lámina 17 x 44 cm.</ImageP>
+          </ImageTextContainer>
+        </ImageContainer>
+      </ImageSection>
+      <ImageSection border={"1px solid black"}>
+        <ImageContainer>
+        <ImageBg >
+            <Image
+              src="/images/works/flores/03.png"
+              height={"550px"}
+              deskHeight={"280px"}
+              width={"100%"}
+
+            ></Image>
+          </ImageBg>
+
+          <ImageTextContainer>
+            <ImageP>Crisantemos amarillos</ImageP>
+            <ImageP>Sumi - e tinta y acuarela sobre papel de arroz.</ImageP>
+            <ImageP>Lámina 32 x 24 cm.</ImageP>
+          </ImageTextContainer>
+        </ImageContainer>
+        <ImageContainer>
+        <ImageBg >
+            <Image
+              src="/images/works/flores/04.jpg"
+              height={"280px"}
+              deskHeight={"280px"}
+              width={"100%"}
+
+            ></Image>
+          </ImageBg>
+          <ImageTextContainer>
+            <ImageP>Flores de frutal</ImageP>
+            <ImageP>Sumi-e: tinta china sobre papel de arroz</ImageP>
+            <ImageP>20x30cm</ImageP>
+          </ImageTextContainer>
+        </ImageContainer>
+      </ImageSection>
+      <ImageSection border={"1px solid black"}>
+        <ImageContainer>
+        <ImageBg >
+            <Image
+              src="/images/works/flores/05.jpg"
+              height={"370px"}
+              deskHeight={"280px"}
+              width={"100%"}
+    
+            ></Image>
+          </ImageBg>
+          <ImageTextContainer>
+            <ImageP>Lapacho en la vereda</ImageP>
+            <ImageP>Acuarela sobre papel 200 g.</ImageP>
+            <ImageP>Lámina 15,5 x 23 cm.</ImageP>
+          </ImageTextContainer>
+        </ImageContainer>
+        <ImageContainer>
+        <ImageBg >
+            <Image
+              src="/images/works/flores/06.jpg"
+              height={"370px"}
+              deskHeight={"280px"}
+              width={"100%"}
+    
+            ></Image>
+          </ImageBg>
+          <ImageTextContainer>
+            <ImageP>Peonía con pimpollo</ImageP>
+            <ImageP>Sumi - e tinta y acuarela sobre papel de arroz.</ImageP>
+            <ImageP>Lámina 29,5 34,5 cm.</ImageP>
           </ImageTextContainer>
         </ImageContainer>
       </ImageSection>

@@ -22,6 +22,14 @@ gap: 70px;
 flex-wrap: wrap;
 align-items:center;
 width: 100%;
+@media (max-width: 850px) {
+    margin-top: 2vh;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    padding-left: 5vw;
+  }
+
 `
 
 const NavItem = styled.li`

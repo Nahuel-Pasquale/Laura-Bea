@@ -60,6 +60,7 @@ export const ImageContainer = styled.div`
 
 export const Image = styled.img`
   height: ${(props) => (props.height ? props.height : "450px")};
+
   @media (max-width: 1280px) {
     height: ${(props) => (props.deskHeight ? props.deskHeight : "300px")};
   }
@@ -93,6 +94,7 @@ export const ImageBg = styled.div`
   width: fit-content;
   display: flex;
   align-items: center;
+  background: ${(props) => (props.whiteBg ? "white" : "")};
   @media (max-width: 1280px) {
     height: 300px;
   }
