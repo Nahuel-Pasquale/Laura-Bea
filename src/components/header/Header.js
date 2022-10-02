@@ -46,7 +46,7 @@ export const Header = ({ isOpen, handleOpen }) => {
     <>
       <HeaderUI>
           <LogoContainer>
-            <Logo src="images/logo Laura B-01.png" />
+            <Logo src="/images/logo Laura B-01.png" />
           </LogoContainer>
           <Navbar isOpen={isOpen} handleOpen={handleOpen} />
           <Hamburger />

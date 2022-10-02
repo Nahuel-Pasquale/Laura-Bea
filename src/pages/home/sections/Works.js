@@ -100,7 +100,7 @@ export const Works = () => {
     <>
         <ContenedorWorks>
             <Work background="white">
-                <WorkImg width="30vw" height="35vw" widthR="60vw" heightR="70vw" src="images/home/circulo home.png" />
+                <WorkImg width="30vw" height="35vw" widthR="60vw" heightR="70vw" src="/images/home/circulo home.png" />
             </Work>
             <Work background="var(--dark)">
                 <WorkTitle bottom="7.4vw" bottomR="16vw" left="10vw" leftR="35vw" color='white'>
@@ -110,23 +110,23 @@ export const Works = () => {
                     Descubrí mis obras sobre la geometría zen
                 </WorkTitle>
             </Work>
-            <Work background="url('images/home/cuadrado flores_Mesa de trabajo 1.jpg')">
+            <Work background="url('/images/home/cuadrado flores_Mesa de trabajo 1.jpg')">
                 <WorkFilter />
                 <WorkTitle hoverWidth="6.5vw" hoverWidthR="13vw" widthR="0%" hoverLeft="0" hover="var(--dark)" top="5vw" topR="10vw" left="33vw" leftR="70vw">
                     Flores{'>'}
                 </WorkTitle>
             </Work>
             <Work background="var(--lightGrey)">
-                <WorkImg width="25vw" height="30vw" widthR="50vw" heightR="60vw" src="images/home/cuadro home_Mesa de trabajo 1.jpg" />
+                <WorkImg width="25vw" height="30vw" widthR="50vw" heightR="60vw" src="/images/home/cuadro home_Mesa de trabajo 1.jpg" />
             </Work>
             <Work background="var(--dark)">
-                <WorkImg width="29vw" height="34vw" widthR="60vw" heightR="70vw" src="images/home/pastizal home.jpg" />
+                <WorkImg width="29vw" height="34vw" widthR="60vw" heightR="70vw" src="/images/home/pastizal home.jpg" />
             </Work>
             <Work background="white">
                 <WorkTitle hoverWidth="8.6vw" hoverWidthR="16.4vw" hover="var(--dark)" widthR="20%" top="5vw" topR="10vw" right="32vw" rightR="70vw">
                     {'<'} Pastizal
                 </WorkTitle>
-                <WorkImg width="25vw" height="30vw" widthR="50vw" heightR="60vw" src="images/home/figura pastizal home.jpg" />
+                <WorkImg width="25vw" height="30vw" widthR="50vw" heightR="60vw" src="/images/home/figura pastizal home.jpg" />
             </Work>
         </ContenedorWorks>
     </>

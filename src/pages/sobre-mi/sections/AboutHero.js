@@ -93,7 +93,7 @@ const AboutHero = () => {
     <>
       <Section>
         <HeroImg
-          src={"images/sobre-mi/foto-laura.jpg"}
+          src={"/images/sobre-mi/foto-laura.jpg"}
           alt="Foto de Laura Bea"
         />
         <HeroInfo>

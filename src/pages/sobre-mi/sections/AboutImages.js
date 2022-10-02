@@ -167,7 +167,7 @@ const AboutImages = () => {
             </Paragraph>
           </ImageDescription>
           <Image
-            src="images/sobre-mi/foto1-sobre-mi.jpg"
+            src="/images/sobre-mi/foto1-sobre-mi.jpg"
             height={"500px"}
           ></Image>
         </ImageSection>
@@ -175,7 +175,7 @@ const AboutImages = () => {
         <ImageSection gap={"8rem"}>
           <FigureContainer>
             <Figure
-              src="images/sobre-mi/figura-1-sobre-mi.png"
+              src="/images/sobre-mi/figura-1-sobre-mi.png"
               height={"700px"}
               ml={"-120px"}
               responsivedisplay={"none"}
@@ -193,7 +193,7 @@ const AboutImages = () => {
               display={"none"}
               height={"400px"}
               ml={"-50px"}
-              src="images/sobre-mi/figura-1-sobre-mi.png"
+              src="/images/sobre-mi/figura-1-sobre-mi.png"
               responsivedisplay={"flex"}
             ></Figure>
             <Paragraph width={"95%"}>
@@ -224,10 +224,10 @@ const AboutImages = () => {
             Conoce <Span> +casa arte </Span> {">"}
           </Paragraph>
           <Figure
-            src="images/sobre-mi/figura3-sobre-mi.png"
+            src="/images/sobre-mi/figura3-sobre-mi.png"
             height={"430px"}
           ></Figure>
-          <Logo src="images/logo Laura B-01.png" />
+          <Logo src="/images/logo Laura B-01.png" />
         </MoreContainer>
       </Section>
     </>

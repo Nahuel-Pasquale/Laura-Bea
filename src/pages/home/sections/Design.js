@@ -97,7 +97,7 @@ const HeroPng = styled.div`
     z-index: 9999;
     top: -4vw;
     left: -47vw;
-    background: url('images/figura 2 home.png') no-repeat;
+    background: url('/images/figura 2 home.png') no-repeat;
     background-size: contain;
     width: 50vw;
     height: 60vw;

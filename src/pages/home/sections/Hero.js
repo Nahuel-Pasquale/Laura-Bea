@@ -54,10 +54,10 @@ const HeroSignature = styled.p`
 
 const HeroPNG = styled.div`
     position: absolute;
-    top: 20vw;
+    top: 23vw;
     z-index: 999;
     right: 4vw;
-    background: url('images/figura 1 home.png') no-repeat;
+    background: url('/images/sobre-mi/figura2-sobre-mi.png') no-repeat;
     background-size: contain;
     width: 33vw;
     height: 34vw;

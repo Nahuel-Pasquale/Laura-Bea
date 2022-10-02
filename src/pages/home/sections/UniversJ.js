@@ -6,7 +6,7 @@ const UniversJContainer = styled.div`
     position: relative;
     width: 100vw;
     height: 40vw;
-    background: url('images/home/banner peces_Mesa de trabajo 1.jpg');
+    background: url('/images/home/banner peces_Mesa de trabajo 1.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

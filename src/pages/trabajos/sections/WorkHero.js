@@ -1,23 +1,18 @@
 import React from "react";
 import styled from "styled-components";
+import WorkNavbar from "../../../components/navbar/WorkNav";
 
 const Section = styled.section`
-  margin-top: 35vh;
+  margin-top: 5vh;
   display: flex;
   justify-content: flex-end;
   width: 100%;
   height: 70vh;
-  background: url("images/works/banner.jpg");
+  background: ${(props) => `url(${props.background})`};
   background-size: cover;
   background-repeat: no-repeat;
-  @media (max-width: 992px) {
-    margin-top: 25vh;
-  }
-  @media (max-width: 576px) {
-    margin-top: 20vh;
-  }
+  background-position: center;
 `;
-
 const Title = styled.h1`
   font-family: "Manrope-light";
   letter-spacing: 5px;
@@ -27,13 +22,16 @@ const Title = styled.h1`
     padding: 30px 50px;
   }
 `;
-
-const WorkHero = ({title}) => {
+const WorkHero = ({title, background}) => {
   return (
-    <Section>
+<>
+    <WorkNavbar/>
+    <Section background={background}>
       <Title>{"<"} {title}</Title>
     </Section>
+    </>
   );
+
 };
 
 export default WorkHero;

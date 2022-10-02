@@ -103,7 +103,7 @@ export const Navbar = ({display}) => {
         <Link to="/" onClick={ctx.toggleMenu}>
           <NavLink>Inicio</NavLink>
         </Link>
-        <Link to="/trabajos" onClick={ctx.toggleMenu}>
+        <Link to="trabajos/flores" onClick={ctx.toggleMenu}>
           <NavLink>Trabajos</NavLink>
         </Link>
         <Link to="/sobre-mi" onClick={ctx.toggleMenu}>

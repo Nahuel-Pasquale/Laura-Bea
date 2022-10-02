@@ -98,7 +98,7 @@ export const Footer = () => {
           </FooterLocationP>
         </FooterLocation>
         <FooterLogo>
-          <FooterLogoImg src="images/isologo footer.png" alt="logo" />
+          <FooterLogoImg src="/images/isologo footer.png" alt="logo" />
         </FooterLogo>
         <FooterRedes>
           <FooterRedesIcons>
