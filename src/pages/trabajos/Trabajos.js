@@ -10,7 +10,7 @@ export const Trabajos = ({ isOpen, handleOpen }) => {
     <>
       <Navbar display={"none"} isOpen={isOpen} handleOpen={handleOpen} />
       <Hamburger />
-      <WorkHero />
+      <WorkHero title="ALGO" />
       <Gallery />
       <Footer />
     </>

@@ -18,20 +18,6 @@ const Section = styled.section`
   }
 `;
 
-const Routes = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center; 
-  width: 100%;
-  gap: 50px;
-  @media (max-width: 992px) {
-    
-  }
-  @media (max-width: 576px) {
-    
-  }
-`;
-
 const Title = styled.h1`
   font-family: "Manrope-light";
   letter-spacing: 5px;
@@ -42,10 +28,10 @@ const Title = styled.h1`
   }
 `;
 
-const WorkHero = () => {
+const WorkHero = ({title}) => {
   return (
     <Section>
-      <Title>{"<"} FLORES</Title>
+      <Title>{"<"} {title}</Title>
     </Section>
   );
 };
