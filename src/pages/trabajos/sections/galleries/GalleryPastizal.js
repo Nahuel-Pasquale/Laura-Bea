@@ -46,7 +46,10 @@ const GalleryEstampas = () => {
       </ImageSection>
       <ImageSection border={"1px solid black"}>
         <ImageContainer>
-          <Image src="/images/works/pastizal/05.JPEG"></Image>
+          <Image 
+          src="/images/works/pastizal/05.JPEG"
+
+          ></Image>
           <ImageTextContainer>
             <ImageP>Colores del girasol</ImageP>
             <ImageP>Tinta sobre papel de acuarela</ImageP>

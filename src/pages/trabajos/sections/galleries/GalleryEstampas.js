@@ -88,9 +88,7 @@ const GalleryEstampas = () => {
             <ImageP>1,35x 1,35 cm.</ImageP>
           </ImageTextContainer>
         </ImageContainer>
-      </ImageSection>
-
-      
+      </ImageSection>     
     </Section>
   );
 };

@@ -10,7 +10,7 @@ const UniversoJapon = ({ isOpen, handleOpen }) => {
     <>
       <Navbar display={"none"} isOpen={isOpen} handleOpen={handleOpen} />
       <Hamburger />
-      <WorkHero background="/images/works/banner.jpg" title="UNIVERSO JAPÓN" />
+      <WorkHero hoverWidth="120px" background="/images/works/banner.jpg" title="UNIVERSO JAPÓN" />
       <GalleryUniversoJapon />
       <Footer />
     </>
