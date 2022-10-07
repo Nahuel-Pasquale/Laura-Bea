@@ -94,6 +94,8 @@ export const ImageBg = styled.div`
   width: fit-content;
   display: flex;
   align-items: center;
+  justify-content: center;
+  background-position: center;
   background: ${(props) => (props.whiteBg ? "white" : "")};
   @media (max-width: 1280px) {
     height: 300px;

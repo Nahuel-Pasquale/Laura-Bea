@@ -40,11 +40,11 @@ const Title = styled.h1`
 `;
 const WorkHero = ({title, background, hoverWidth}) => {
   return (
-<>
-    <WorkNavbar/>
-    <Section background={background} hoverWidth={hoverWidth}>
-      <Title>{"<"} {title} </Title>
-    </Section>
+    <>
+      <WorkNavbar/>
+      <Section background={background} hoverWidth={hoverWidth}>
+        <Title>{"<"} {title} </Title>
+      </Section>
     </>
   );
 

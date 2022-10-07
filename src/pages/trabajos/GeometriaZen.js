@@ -10,7 +10,7 @@ const GeometriaZen = ({ isOpen, handleOpen }) => {
     <>
       <Navbar display={"none"} isOpen={isOpen} handleOpen={handleOpen} />
       <Hamburger />
-      <WorkHero background="/images/works/banner.jpg" title="GEOMETRÍA ZEN" />
+      <WorkHero background="/images/works/geometria-zen/geometria-zen.png" title="GEOMETRÍA ZEN" />
       <GalleryGZen />
       <Footer />
     </>

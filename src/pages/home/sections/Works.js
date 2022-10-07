@@ -100,7 +100,7 @@ export const Works = () => {
     <>
         <ContenedorWorks>
             <Work background="white">
-                <WorkImg width="30vw" height="35vw" widthR="60vw" heightR="70vw" src="/images/home/circulo home.png" />
+                <WorkImg width="30vw" height="40vw" widthR="60vw" heightR="70vw" src="/images/works/geometria-zen/04.png" />
             </Work>
             <Work background="var(--dark)">
                 <WorkTitle bottom="7.4vw" bottomR="16vw" left="10vw" leftR="35vw" color='white'>

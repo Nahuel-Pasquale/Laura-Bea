@@ -35,6 +35,21 @@ width: 100%;
 const NavItem = styled.li`
 list-style:none;
 font-family: 'RobotoMono-regular', sans-serif;
+position: relative;
+    ::before{ 
+        content: "";
+        z-index: 9999;
+        height: 0.5px;
+        width: 0%;
+        background: var(--dark);
+        position: absolute;
+        right: 0;
+        bottom: 0px;
+        transition: 0.4s ease-out;
+    }
+    :hover::before{
+        width: 100%;
+  }
 a{
   color: var(--dark);
 }

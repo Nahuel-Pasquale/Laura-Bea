@@ -1,5 +1,5 @@
 import React from 'react'
-import { Image, ImageContainer, ImageP, ImageSection, ImageTextContainer, Paragraph, Section } from '../Gallery';
+import { Image, ImageBg, ImageContainer, ImageP, ImageSection, ImageTextContainer, Paragraph, Section } from '../Gallery';
 
 const GalleryEstampas = () => {
   return (
@@ -10,7 +10,14 @@ const GalleryEstampas = () => {
       </Paragraph>
       <ImageSection border={"1px solid black"}>
         <ImageContainer>
-          <Image src="/images/works/pastizal/01.jpeg"></Image>
+          <ImageBg>
+            <Image 
+            src="/images/works/pastizal/01.jpeg"
+            height={"330px"}
+            deskHeight={"280px"}
+            width={"100%"}
+            ></Image>
+          </ImageBg>
           <ImageTextContainer>
             <ImageP>Nombre</ImageP>
             <ImageP>Técnica</ImageP>
@@ -18,7 +25,11 @@ const GalleryEstampas = () => {
           </ImageTextContainer>
         </ImageContainer>
         <ImageContainer>
-          <Image src="/images/works/pastizal/02.jpeg"></Image>
+          <ImageBg>
+            <Image 
+            src="/images/works/pastizal/02.jpeg"
+            ></Image>     
+          </ImageBg>
           <ImageTextContainer>
             <ImageP>Flores de frutal</ImageP>
             <ImageP>Sumi-e: tinta china sobre papel de arroz</ImageP>
@@ -28,7 +39,14 @@ const GalleryEstampas = () => {
       </ImageSection>
       <ImageSection border={"1px solid black"}>
         <ImageContainer>
-          <Image src="/images/works/pastizal/03.JPG"></Image>
+          <ImageBg>
+            <Image 
+              src="/images/works/pastizal/03.JPG"
+              height={"400px"}
+              deskHeight={"330px"}
+              width={"100%"}
+            ></Image>
+          </ImageBg>
           <ImageTextContainer>
             <ImageP>Colores del girasol</ImageP>
             <ImageP>Tinta sobre papel de acuarela</ImageP>
@@ -36,7 +54,14 @@ const GalleryEstampas = () => {
           </ImageTextContainer>
         </ImageContainer>
         <ImageContainer>
-          <Image src="/images/works/pastizal/04.JPG"></Image>
+          <ImageBg>
+            <Image 
+            src="/images/works/pastizal/04.JPG"
+            height={"400px"}
+            deskHeight={"330px"}
+            width={"100%"}
+            ></Image>
+          </ImageBg>
           <ImageTextContainer>
             <ImageP>Girasol</ImageP>
             <ImageP>Tinta sobre papel de acuarela</ImageP>
@@ -48,7 +73,7 @@ const GalleryEstampas = () => {
         <ImageContainer>
           <Image 
           src="/images/works/pastizal/05.JPEG"
-
+          
           ></Image>
           <ImageTextContainer>
             <ImageP>Colores del girasol</ImageP>

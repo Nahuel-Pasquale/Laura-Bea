@@ -10,7 +10,7 @@ const Pastizal = ({ isOpen, handleOpen }) => {
     <>
       <Navbar display={"none"} isOpen={isOpen} handleOpen={handleOpen} />
       <Hamburger />
-      <WorkHero background="/images/works/banner.jpg" title="PASTIZAL" />
+      <WorkHero background="/images/works/pastizal/pastizal.png" title="PASTIZAL" />
       <GalleryPastizal />
       <Footer />
     </>

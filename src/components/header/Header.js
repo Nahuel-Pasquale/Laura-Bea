@@ -9,34 +9,27 @@ const HeaderUI = styled.header`
 
 const LogoContainer = styled.div`
   width: 100%;
-  height: 14vh;
   padding-left: 10%;
+  padding-top: 40px;
   margin-left: 0;
   display: flex;
   align-items: flex-end;
   justify-content: flex-start;
-  margin-top: 2.6vw;
   @media (max-width: 1024px) {
-    height: 14vh;
+    padding-top: 60px;
     padding-left: 8%;
-    margin-top: 2.4vw;
   }
   @media (max-width: 560px) {
-    height: 14vh;
-    padding-left: 8%;
-    margin-top: 4vw;
+    padding-top: 50px;
   }
 `;
 const Logo = styled.img`
   width: 20%;
-  /* @media (max-width: 1024px) {
-    width: 20%;
-  } */
   @media (max-width: 720px) {
     width: 35%;
   }
   @media (max-width: 420px) {
-    width: 35%;
+    width: 40%;
   }
 `;
 

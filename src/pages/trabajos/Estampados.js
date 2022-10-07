@@ -10,7 +10,7 @@ const Estampados = ({ isOpen, handleOpen }) => {
     <>
       <Navbar display={"none"} isOpen={isOpen} handleOpen={handleOpen} />
       <Hamburger />
-      <WorkHero background="/images/works/banner.jpg" title="ESTAMPADO EN PRODUCTOS" />
+      <WorkHero background="/images/works/estampados/estampados.png" title="ESTAMPADOS EN PRODUCTOS" />
       <GalleryEstampas />
       <Footer />
     </>

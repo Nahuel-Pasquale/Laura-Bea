@@ -10,12 +10,29 @@ const HeroContainer = styled.div`
     width: 55%;
     height: 80vh;
     gap: 50px;
-    @media (max-width: 560px) {
-        width: 90%;
-        /* gap: 20px; */
+    @media (max-width: 1100px) {
+        width: 60%;
+        height: auto;
+        padding-bottom: 80px;
         padding-left: 8%;
         justify-content: flex-start;
-        padding-top: 100px;
+        padding-top: 60px;
+    }
+    @media (max-width: 810px) {
+        width: 80%;
+        height: auto;
+        padding-bottom: 80px;
+        padding-left: 8%;
+        justify-content: flex-start;
+        padding-top: 60px;
+    }
+    @media (max-width: 560px) {
+        width: 90%;
+        height: auto;
+        padding-bottom: 100px;
+        padding-left: 8%;
+        justify-content: flex-start;
+        padding-top: 50px;
     }
 `;
 
@@ -61,10 +78,24 @@ const HeroPNG = styled.div`
     background-size: contain;
     width: 33vw;
     height: 34vw;
-    @media (max-width: 560px) {
-        top: 110vw;
-        width: 60vw;
+    @media (max-width: 1100px) {
+        top: 40%;
+        width: 40vw;
         height: 70vw;
+    }
+    @media (max-width: 810px) {
+        top: 48%;
+        width: 35vw;
+    }
+    @media (max-width: 740px) {
+        top: 55%;
+        width: 40vw;
+    }
+    @media (max-width: 560px) {
+        top: 35%;
+    }
+    @media (max-width: 435px) {
+        top: 40%;
     }
 `
 
@@ -88,7 +119,7 @@ export const Hero = () => {
                 una incomodidad.
             </HeroP>
             <HeroSignature>
-                Autor. Nombre
+                {/* Autor. Nombre */}
             </HeroSignature>
         </HeroContainer>
     </>

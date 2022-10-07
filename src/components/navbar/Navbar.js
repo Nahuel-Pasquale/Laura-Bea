@@ -78,6 +78,21 @@ const NavLink = styled.li`
   height: 3em;
   text-transform: none;
   font-weight: bold;
+  position: relative;
+    ::before{ 
+        content: "";
+        z-index: 9999;
+        height: 0.5px;
+        width: 0%;
+        background: var(--lightGrey);
+        position: absolute;
+        right: 0;
+        bottom: 15px;
+        transition: 0.4s ease-out;
+    }
+    :hover::before{
+        width: 100%;
+  }
 `;
 // const LogoContainer = styled.div`
 //   width: 100%;

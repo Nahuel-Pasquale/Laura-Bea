@@ -18,7 +18,6 @@ const GalleryEstampas = () => {
               height={"330px"}
               deskHeight={"280px"}
               width={"100%"}
-              
             ></Image>
           </ImageBg>
 
@@ -45,7 +44,6 @@ const GalleryEstampas = () => {
               height={"330px"}
               deskHeight={"280px"}
               width={"100%"}
-              
             ></Image>
           </ImageBg>
           <ImageTextContainer>
@@ -71,7 +69,6 @@ const GalleryEstampas = () => {
               height={"330px"}
               deskHeight={"280px"}
               width={"100%"}
-              
             ></Image>
           </ImageBg>
           <ImageTextContainer>
@@ -82,6 +79,70 @@ const GalleryEstampas = () => {
         </ImageContainer>
         <ImageContainer>
           <Image src="/images/works/estampados/06.jpg"></Image>
+          <ImageTextContainer>
+            <ImageP>Pañuelo Amapolas</ImageP>
+            <ImageP>Creppe de gasa</ImageP>
+            <ImageP>1,35x 1,35 cm.</ImageP>
+          </ImageTextContainer>
+        </ImageContainer>
+      </ImageSection>     
+      <ImageSection border={"1px solid black"}>
+        <ImageContainer>
+        <ImageBg >
+            <Image
+              src="/images/works/estampados/07.jpg"
+              height={"280px"}
+              deskHeight={"280px"}
+              width={"120%"}
+            ></Image>
+          </ImageBg>
+          <ImageTextContainer>
+            <ImageP>Estampa Amapolas</ImageP>
+            <ImageP>Dibujo con tinta, pluma y marcadores sobre papel para acuarela. Redibujado digitalmente editado en Illustrator.</ImageP>
+            <ImageP></ImageP>
+          </ImageTextContainer>
+        </ImageContainer>
+        <ImageContainer>
+        <ImageBg >
+            <Image
+              src="/images/works/estampados/08.jpg"
+              height={"280px"}
+              deskHeight={"280px"}
+              width={"120%"}
+            ></Image>
+          </ImageBg>
+          <ImageTextContainer>
+            <ImageP>Pañuelo Amapolas</ImageP>
+            <ImageP>Creppe de gasa</ImageP>
+            <ImageP>1,35x 1,35 cm.</ImageP>
+          </ImageTextContainer>
+        </ImageContainer>
+      </ImageSection>     
+      <ImageSection border={"1px solid black"}>
+        <ImageContainer>
+        <ImageBg >
+            <Image
+              src="/images/works/estampados/09.jpg"
+              height={"250px"}
+              deskHeight={"280px"}
+              width={"120%"}
+            ></Image>
+          </ImageBg>
+          <ImageTextContainer>
+            <ImageP>Estampa Amapolas</ImageP>
+            <ImageP>Dibujo con tinta, pluma y marcadores sobre papel para acuarela. Redibujado digitalmente editado en Illustrator.</ImageP>
+            <ImageP></ImageP>
+          </ImageTextContainer>
+        </ImageContainer>
+        <ImageContainer>
+        <ImageBg >
+            <Image
+              src="/images/works/estampados/10.JPEG"
+              height={"260px"}
+              deskHeight={"280px"}
+              width={"120%"}          
+            ></Image>
+          </ImageBg>
           <ImageTextContainer>
             <ImageP>Pañuelo Amapolas</ImageP>
             <ImageP>Creppe de gasa</ImageP>

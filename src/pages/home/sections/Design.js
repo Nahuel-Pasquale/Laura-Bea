@@ -21,18 +21,19 @@ const DesignContainer = styled.section`
     gap: 50px;
     width: 45%;
     margin-left: 32%;
-    height: 43vw;
+    padding: 130px 0px;
+    /* height: 43vw; */
     @media (max-width: 1024px) {
-        width: 80%;
-        height: 60vh;
-        margin-left: 10%;
+        width: 60%;
+        /* height: 60vh; */
+        margin-left: 20%;
         gap: 40px;
         justify-content: flex-start;
         padding-top: 40px;
     }
     @media (max-width: 576px) {
         width: 80%;
-        height: 60vh;
+        /* height: 60vh; */
         margin-left: 10%;
         gap: 40px;
         justify-content: flex-start;
@@ -48,6 +49,11 @@ const DesignTitle = styled.h2`
     @media (max-width: 576px) {
         font-size: 1rem;
     }
+`
+const DesignPContainer = styled.div`
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 `
 
 const DesignP = styled.p`
@@ -111,18 +117,27 @@ const HeroPng = styled.div`
 `
 
 export const Design = () => {
-  return (
+    return (
     <>
-      <DesignContainer>
+        <DesignContainer>
         <HeroPng />
-        <DesignTitle>Diseño de estampas.</DesignTitle>
-        <DesignP>
-          Es el arte de pensar y producir diseños para la confección de prendas,
-          accesorios, objetos de decoración, tapicería y demás productos
-          textiles.
-        </DesignP>
+        <DesignTitle>Diseño de estampas y superficies.</DesignTitle>
+        <DesignPContainer>
+            <DesignP>
+                Es generar una imagen para ser reproducida en una superficie.
+                No es una aplicación directa como puede ser la pintura. Es un proceso
+                técnico y/o mecánico que puede ir desde el sello hjasta la impresión digital.
+            </DesignP>
+            <DesignP>
+                Por eso creo que el diseño también puede ser llamado arte cuando logra su máxima expresión.
+            </DesignP>
+            <DesignP>
+                Pinto, fotografío o escaneo, compongo digitalmente, para luego mandar a estampar por sublimación 
+                o estampa digital directa sobre: papel, papel tapiz, vinilos, PVC, alto impacto, madera y textiles
+            </DesignP>
+        </DesignPContainer>
         <DesignPBold>Mis diseños</DesignPBold>
-      </DesignContainer>
+        </DesignContainer>
     </>
-  );
+    );
 };

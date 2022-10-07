@@ -26,7 +26,12 @@ const GalleryGZen = () => {
           </ImageTextContainer>
         </ImageContainer>
         <ImageContainer>
-          <Image src="/images/works/geometria-zen/02.jpg"></Image>
+          <ImageBg>
+            <Image src="/images/works/geometria-zen/02.jpg"
+              height={"420px"}
+              deskHeight={"330px"}
+              width={"100%"}></Image>
+          </ImageBg>
           <ImageTextContainer>
             <ImageP>Luna de colores</ImageP>
             <ImageP>Imagen digital escalable</ImageP>

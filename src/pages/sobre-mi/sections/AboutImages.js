@@ -136,6 +136,11 @@ const MoreContainer = styled.div`
 
 const Span = styled.span`
   font-weight: bold;
+  a {
+    text-decoration: none;
+    color: var(--dark);
+    cursor: pointer;
+  }
 `;
 
 const Logo = styled.img`
@@ -221,7 +226,7 @@ const AboutImages = () => {
         </Paragraph>
         <MoreContainer>
           <Paragraph selfalign={"flex-end"}>
-            Conoce <Span> +casa arte </Span> {">"}
+            Conoce <Span> <a href="https://www.google.com/">+casa arte</a> </Span> {">"}
           </Paragraph>
           <Figure
             src="/images/sobre-mi/figura3-sobre-mi.png"
