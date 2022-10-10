@@ -1,7 +1,6 @@
 import emailjs from "@emailjs/browser";
 
-export const sendMail = (templateParams) => {
-  let resp = 0;
+export const sendMail = (templateParams, setFn, resetFn) => {
   emailjs
     .send(
       "service_jvwfmee",
@@ -12,12 +11,13 @@ export const sendMail = (templateParams) => {
     .then(
       function (response) {
         console.log("SUCCESS!", response.status, response.text);
-        resp = response.status;
-        return resp;
+        if (response.status === 200) {
+          setFn(true);
+          resetFn({ email: "", name: "", surname: "", msg: "" });
+        }
       },
       function (error) {
         console.log("FAILED...", error);
       }
     );
-  return resp;
 };
