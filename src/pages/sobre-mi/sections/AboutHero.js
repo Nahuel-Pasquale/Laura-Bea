@@ -71,14 +71,14 @@ const HeroInfoP = styled.p`
   display: flex;
   border-top: 1px solid black;
   padding-top: 15px;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   font-family: "RobotoMono-bold";
 `;
 
 const HeroInfoDescription = styled.p`
   width: 40vw;
   letter-spacing: 1px;
-  font-size: 0.7rem;
+  font-size: 0.9rem;
   font-family: "RobotoMono-bold";
   align-self: center;
   text-align: justify;

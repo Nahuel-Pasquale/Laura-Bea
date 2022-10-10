@@ -97,6 +97,9 @@ const HeroPNG = styled.div`
     @media (max-width: 435px) {
         top: 40%;
     }
+    @media (max-width: 395px) {
+        top: 50%;
+    }
 `
 
 

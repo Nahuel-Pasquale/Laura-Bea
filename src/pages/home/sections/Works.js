@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 
 const ContenedorWorks = styled.section`
@@ -100,33 +101,33 @@ export const Works = () => {
     <>
         <ContenedorWorks>
             <Work background="white">
-                <WorkImg width="30vw" height="40vw" widthR="60vw" heightR="70vw" src="/images/works/geometria-zen/04.png" />
+                <WorkImg width="30vw" height="40vw" widthR="52vw" heightR="70vw" src="/images/works/geometria-zen/04.png" />
             </Work>
             <Work background="var(--dark)">
                 <WorkTitle bottom="7.4vw" bottomR="16vw" left="10vw" leftR="35vw" color='white'>
                     {'<'}
                 </WorkTitle>
                 <WorkTitle hoverWidth="15.6vw" hoverWidthR="30vw" widthR="47vw" hover="var(--lightGrey)" width="25vw" bottom="5vw" bottomR="10vw" left="12vw" leftR="40vw" color="white" fontW="300">
-                    Descubrí mis obras sobre la geometría zen
+                    Descubrí mis obras sobre la <Link to="/trabajos/geometria-zen"> geometría zen </Link>
                 </WorkTitle>
             </Work>
             <Work background="url('/images/home/cuadrado flores_Mesa de trabajo 1.jpg')">
                 <WorkFilter />
                 <WorkTitle hoverWidth="6.5vw" hoverWidthR="13vw" widthR="0%" hoverLeft="0" hover="var(--dark)" top="5vw" topR="10vw" left="33vw" leftR="70vw">
-                    Flores{'>'}
+                    <Link to="/trabajos/flores">  Flores{'>'} </Link>
                 </WorkTitle>
             </Work>
             <Work background="var(--lightGrey)">
-                <WorkImg width="25vw" height="30vw" widthR="50vw" heightR="60vw" src="/images/home/cuadro home_Mesa de trabajo 1.jpg" />
+                <WorkImg width="25vw" height="30vw" widthR="45vw" heightR="60vw" src="/images/home/cuadro home_Mesa de trabajo 1.jpg" />
             </Work>
             <Work background="var(--dark)">
-                <WorkImg width="29vw" height="34vw" widthR="60vw" heightR="70vw" src="/images/home/pastizal home.jpg" />
+                <WorkImg width="29vw" height="34vw" widthR="52vw" heightR="70vw" src="/images/home/pastizal home.jpg" />
             </Work>
             <Work background="white">
                 <WorkTitle hoverWidth="8.6vw" hoverWidthR="16.4vw" hover="var(--dark)" widthR="20%" top="5vw" topR="10vw" right="32vw" rightR="70vw">
-                    {'<'} Pastizal
+                    <Link to="/trabajos/pastizal"> {'<'} Pastizal </Link>
                 </WorkTitle>
-                <WorkImg width="25vw" height="30vw" widthR="50vw" heightR="60vw" src="/images/home/figura pastizal home.jpg" />
+                <WorkImg width="25vw" height="30vw" widthR="45vw" heightR="60vw" src="/images/home/figura pastizal home.jpg" />
             </Work>
         </ContenedorWorks>
     </>

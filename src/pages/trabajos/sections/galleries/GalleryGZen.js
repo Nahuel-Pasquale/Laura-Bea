@@ -21,7 +21,7 @@ const GalleryGZen = () => {
           </ImageBg>
           <ImageTextContainer>
             <ImageP>Abrir</ImageP>
-            <ImageP>Imagen digital escalable</ImageP>
+            <ImageP>Imagen digital escalable.</ImageP>
             <ImageP>42x29</ImageP>
           </ImageTextContainer>
         </ImageContainer>
@@ -34,7 +34,7 @@ const GalleryGZen = () => {
           </ImageBg>
           <ImageTextContainer>
             <ImageP>Luna de colores</ImageP>
-            <ImageP>Imagen digital escalable</ImageP>
+            <ImageP>Imagen digital escalable.</ImageP>
             <ImageP>29x42</ImageP>
           </ImageTextContainer>
         </ImageContainer>
@@ -44,7 +44,7 @@ const GalleryGZen = () => {
           <Image src="/images/works/geometria-zen/03.jpg"></Image>
           <ImageTextContainer>
             <ImageP>Sin fin</ImageP>
-            <ImageP>Imagen digital escalable</ImageP>
+            <ImageP>Imagen digital escalable.</ImageP>
             <ImageP>29x42</ImageP>
           </ImageTextContainer>
         </ImageContainer>
@@ -52,7 +52,7 @@ const GalleryGZen = () => {
           <Image src="/images/works/geometria-zen/04.png"></Image>
           <ImageTextContainer>
             <ImageP>Eco</ImageP>
-            <ImageP>Imagen digital escalable</ImageP>
+            <ImageP>Imagen digital escalable.</ImageP>
             <ImageP>29x42</ImageP>
           </ImageTextContainer>
         </ImageContainer>
@@ -62,7 +62,7 @@ const GalleryGZen = () => {
           <Image src="/images/works/geometria-zen/05.jpg"></Image>
           <ImageTextContainer>
             <ImageP>Estampado cuadraditos</ImageP>
-            <ImageP>Imagen digital con rapport</ImageP>
+            <ImageP>Imagen digital con rapport.</ImageP>
             <ImageP>21x29</ImageP>
           </ImageTextContainer>
         </ImageContainer>
@@ -70,7 +70,7 @@ const GalleryGZen = () => {
           <Image src="/images/works/geometria-zen/06.jpg"></Image>
           <ImageTextContainer>
             <ImageP>Estampado cuadrados y puntos</ImageP>
-            <ImageP>Imagen digital con rapport</ImageP>
+            <ImageP>Imagen digital con rapport.</ImageP>
             <ImageP>21x29</ImageP>
           </ImageTextContainer>
         </ImageContainer>

@@ -107,7 +107,7 @@ export const ContactSectionMap = () => {
                 Sigamos en contacto
               </ContactInfoH3>
               <ContactInfoH4>
-                Follow my work {'>'}
+                Seguí mi trabajo {'>'}
               </ContactInfoH4>
               <ContactInfoPContainer>
                 <ContactInfoP>

@@ -5,8 +5,6 @@ import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import { schema } from "../../../helpers/schema";
 import Input from "../../../components/input/Input";
-import { ClipLoader } from "react-spinners";
-import emailjs from "@emailjs/browser";
 
 const Consulta = styled.p`
   font-family: "Manrope-bold";
@@ -165,7 +163,7 @@ export const ContactForm = () => {
           <FormInfoH3>
             Gracias por visitar <br /> mi sitio web.
           </FormInfoH3>
-          <FormInfoP>Stay in touch!</FormInfoP>
+          <FormInfoP>Estemos en contacto!</FormInfoP>
         </FormInfo>
         <Form
           autocomplete="off"

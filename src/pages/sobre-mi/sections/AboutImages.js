@@ -68,7 +68,7 @@ const Subtitle = styled.h3`
 `;
 
 const Paragraph = styled.p`
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   font-family: "RobotoMono-regular";
   line-height: 2rem;
   letter-spacing: 1px;

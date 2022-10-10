@@ -101,18 +101,32 @@ const DesignPBold = styled.p`
 const HeroPng = styled.div`
     position: absolute;
     z-index: 9999;
-    top: -4vw;
-    left: -47vw;
+    bottom: -9vw;
+    left: -20vw;
     background: url('/images/figura 2 home.png') no-repeat;
-    background-size: contain;
-    width: 50vw;
-    height: 60vw;
+    background-size: cover;
+    background-position: center;
+    width: 35vw;
+    height: 35vw;
+    @media (max-width: 1350px) {
+        width: 40vw;
+        height: 40vw;
+        bottom: -10vw;
+    }
+    @media (max-width: 710px) {
+        bottom: -12vw;
+        left: -10vw;
+    }
     @media (max-width: 576px) {
-        width: 100vw;
-        height: 120vw;
-        top: -15vw;
-        left: -52vw;
-        background-size: cover;
+        width: 50vw;
+        height: 50vw;
+        bottom: -15vw;
+    }
+    @media (max-width: 420px) {
+        /* width: 60vw;
+        height: 60vw; */
+        bottom: -10vw;
+        /* left: -20vw; */
     }
 `
 
