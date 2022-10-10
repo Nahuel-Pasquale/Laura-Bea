@@ -61,8 +61,17 @@ const GalleryUniversoJapon = () => {
             <ImageP>32x32 cm.</ImageP>
           </ImageTextContainer>
         </ImageContainer>
-        <ImageContainer>
-          <Image src="/images/works/girasolcuadro.jpg"></Image>
+        <ImageContainer align>
+        <ImageBg >
+            <Image
+              src="/images/works/universo-japon/04.jpeg"
+              height={"330px"}
+              deskHeight={"280px"}
+              width={"100%"}
+              
+            ></Image>
+          </ImageBg>
+          
           <ImageTextContainer>
             <ImageP>Medallón de crisantemos</ImageP>
             <ImageP>Imagen digital</ImageP>
@@ -70,7 +79,7 @@ const GalleryUniversoJapon = () => {
           </ImageTextContainer>
         </ImageContainer>
       </ImageSection>
-      <ImageSection>
+      {/* <ImageSection>
         <ImageContainer>        
           <ImageBg >
             <Image
@@ -103,7 +112,7 @@ const GalleryUniversoJapon = () => {
             <ImageP>30x45 cm.</ImageP>
           </ImageTextContainer>
         </ImageContainer>
-      </ImageSection>
+      </ImageSection> */}
       <ImageSection>
         <ImageContainer>        
             <Image src="/images/works/universo-japon/07.jpg"></Image>

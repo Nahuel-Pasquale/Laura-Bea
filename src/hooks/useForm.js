@@ -11,7 +11,7 @@ export const useForm = (initialForm, validateForm) => {
       setForm({
         ...form,
         [name]: value,
-      });
+      });  
     };
 
     const handleBlur = (e) => {

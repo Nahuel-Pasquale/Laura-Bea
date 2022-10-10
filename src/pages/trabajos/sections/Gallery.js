@@ -50,6 +50,8 @@ export const ImageContainer = styled.div`
   display: flex;
   flex-direction: column;
   gap: 50px;
+  /* align-items: center; */
+  align-items: ${(props) => (props.align ? "center" : "")};
   @media (max-width: 1280px) {
     min-width: 277px;
   }
@@ -97,11 +99,13 @@ export const ImageBg = styled.div`
   justify-content: center;
   background-position: center;
   background: ${(props) => (props.whiteBg ? "white" : "")};
+  
   @media (max-width: 1280px) {
     height: 300px;
   }
   @media (max-width: 992px) {
-    width: 60%;
+    width: 80%;
+    height: auto;
     align-self: center;
   }
 `;

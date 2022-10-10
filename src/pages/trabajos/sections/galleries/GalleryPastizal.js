@@ -1,7 +1,7 @@
 import React from 'react'
 import { Image, ImageBg, ImageContainer, ImageP, ImageSection, ImageTextContainer, Paragraph, Section } from '../Gallery';
 
-const GalleryEstampas = () => {
+const GalleryPastizal = () => {
   return (
     <Section>
       <Paragraph>
@@ -13,15 +13,16 @@ const GalleryEstampas = () => {
           <ImageBg>
             <Image 
             src="/images/works/pastizal/01.jpeg"
-            height={"330px"}
+            height={"350px"}
             deskHeight={"280px"}
             width={"100%"}
             ></Image>
           </ImageBg>
           <ImageTextContainer>
-            <ImageP>Nombre</ImageP>
-            <ImageP>Técnica</ImageP>
-            <ImageP>Tamaño/acabado</ImageP>
+            <ImageP>Espiga 2020</ImageP>
+            <ImageP>Acuarela 21x29 cm.</ImageP>
+            <ImageP>Enmarcada con varilla de kiri natural y paspartú </ImageP>
+            <ImageP>37x44 cm.</ImageP>
           </ImageTextContainer>
         </ImageContainer>
         <ImageContainer>
@@ -31,9 +32,9 @@ const GalleryEstampas = () => {
             ></Image>     
           </ImageBg>
           <ImageTextContainer>
-            <ImageP>Flores de frutal</ImageP>
-            <ImageP>Sumi-e: tinta china sobre papel de arroz</ImageP>
-            <ImageP>20x30cm</ImageP>
+            <ImageP>Almohadón Espigas</ImageP>
+            <ImageP>Sublimación sobre pana .</ImageP>
+            <ImageP>50x50 cm</ImageP>
           </ImageTextContainer>
         </ImageContainer>
       </ImageSection>
@@ -48,9 +49,10 @@ const GalleryEstampas = () => {
             ></Image>
           </ImageBg>
           <ImageTextContainer>
-            <ImageP>Colores del girasol</ImageP>
-            <ImageP>Tinta sobre papel de acuarela</ImageP>
-            <ImageP>50x70 cm.</ImageP>
+            <ImageP>Espigado 2020</ImageP>
+            <ImageP>Tinta negra 21x29 cm.</ImageP>
+            <ImageP>Enmarcado con varilla de kiri natural y paspartú</ImageP>
+            <ImageP>37x44 cm.</ImageP>
           </ImageTextContainer>
         </ImageContainer>
         <ImageContainer>
@@ -63,9 +65,9 @@ const GalleryEstampas = () => {
             ></Image>
           </ImageBg>
           <ImageTextContainer>
-            <ImageP>Girasol</ImageP>
-            <ImageP>Tinta sobre papel de acuarela</ImageP>
-            <ImageP>50x70 cm.</ImageP>
+            <ImageP>Pastizal n°1</ImageP>
+            <ImageP>Imagen digital escalable</ImageP>
+            <ImageP>20x20 cm.</ImageP>
           </ImageTextContainer>
         </ImageContainer>
       </ImageSection>
@@ -76,17 +78,17 @@ const GalleryEstampas = () => {
           
           ></Image>
           <ImageTextContainer>
-            <ImageP>Colores del girasol</ImageP>
-            <ImageP>Tinta sobre papel de acuarela</ImageP>
-            <ImageP>50x70 cm.</ImageP>
+            <ImageP>Pastizal 2020</ImageP>
+            <ImageP>Tinta</ImageP>
+            <ImageP>21x29 cm.</ImageP>
           </ImageTextContainer>
         </ImageContainer>
         <ImageContainer>
           <Image src="/images/works/pastizal/06.JPG"></Image>
           <ImageTextContainer>
-            <ImageP>Girasol</ImageP>
-            <ImageP>Tinta sobre papel de acuarela</ImageP>
-            <ImageP>50x70 cm.</ImageP>
+            <ImageP>Pañuelo Pastizal</ImageP>
+            <ImageP>Sublimación sobre creppe de gasa</ImageP>
+            <ImageP>100x140 cm.</ImageP>
           </ImageTextContainer>
         </ImageContainer>
       </ImageSection>
@@ -94,4 +96,4 @@ const GalleryEstampas = () => {
   );
 };
 
-export default GalleryEstampas
+export default GalleryPastizal

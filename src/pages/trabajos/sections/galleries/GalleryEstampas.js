@@ -97,9 +97,9 @@ const GalleryEstampas = () => {
             ></Image>
           </ImageBg>
           <ImageTextContainer>
-            <ImageP>Estampa Amapolas</ImageP>
-            <ImageP>Dibujo con tinta, pluma y marcadores sobre papel para acuarela. Redibujado digitalmente editado en Illustrator.</ImageP>
-            <ImageP></ImageP>
+            <ImageP>Individual Koi</ImageP>
+            <ImageP>Alto impacto</ImageP>
+            <ImageP>30x45 cm.</ImageP>
           </ImageTextContainer>
         </ImageContainer>
         <ImageContainer>
@@ -112,9 +112,9 @@ const GalleryEstampas = () => {
             ></Image>
           </ImageBg>
           <ImageTextContainer>
-            <ImageP>Pañuelo Amapolas</ImageP>
-            <ImageP>Creppe de gasa</ImageP>
-            <ImageP>1,35x 1,35 cm.</ImageP>
+            <ImageP>Individual Koi</ImageP>
+            <ImageP>Alto impacto</ImageP>
+            <ImageP>30x45 cm.</ImageP>
           </ImageTextContainer>
         </ImageContainer>
       </ImageSection>     
@@ -129,9 +129,9 @@ const GalleryEstampas = () => {
             ></Image>
           </ImageBg>
           <ImageTextContainer>
-            <ImageP>Estampa Amapolas</ImageP>
-            <ImageP>Dibujo con tinta, pluma y marcadores sobre papel para acuarela. Redibujado digitalmente editado en Illustrator.</ImageP>
-            <ImageP></ImageP>
+            <ImageP>Individual agua</ImageP>
+            <ImageP>Alto impacto</ImageP>
+            <ImageP>30x45 cm.</ImageP>
           </ImageTextContainer>
         </ImageContainer>
         <ImageContainer>
@@ -144,9 +144,9 @@ const GalleryEstampas = () => {
             ></Image>
           </ImageBg>
           <ImageTextContainer>
-            <ImageP>Pañuelo Amapolas</ImageP>
-            <ImageP>Creppe de gasa</ImageP>
-            <ImageP>1,35x 1,35 cm.</ImageP>
+            <ImageP>Individual agua</ImageP>
+            <ImageP>Alto impacto</ImageP>
+            <ImageP>30x45 cm.</ImageP>
           </ImageTextContainer>
         </ImageContainer>
       </ImageSection>     

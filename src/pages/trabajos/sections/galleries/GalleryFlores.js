@@ -48,9 +48,9 @@ const GalleryFlores = () => {
         <ImageContainer>
           <Image src="/images/works/floreado.jpg"></Image>
           <ImageTextContainer de flores>
-            <ImageP>Campo de flores</ImageP>
-            <ImageP>Acuarela sobre papel 300 g.</ImageP>
-            <ImageP>lámina 27,5 x 26 cm.</ImageP>
+            <ImageP>Floreado</ImageP>
+            <ImageP>Tinta sobre papel de acuarela 300 grs.</ImageP>
+            <ImageP>16,5 x 24,5 cm.</ImageP>
           </ImageTextContainer>
         </ImageContainer>
         <ImageContainer>
@@ -80,17 +80,18 @@ const GalleryFlores = () => {
             ></Image>
           </ImageBg>
           <ImageTextContainer>
-            <ImageP>Peonía en jarrón</ImageP>
-            <ImageP>Tinta y acuarela sobre papel de guía telefónica.</ImageP>
-            <ImageP>Lámina 17,5 x 24,5 cm.</ImageP>
+            <ImageP>Campo de flores</ImageP>
+            <ImageP>Acuarela sobre papel 300 g.</ImageP>
+            <ImageP>Lámina 27,5 x 26 cm.</ImageP>
           </ImageTextContainer>
         </ImageContainer>
         <ImageContainer>
           <Image src="/images/works/flores/02.jpg"></Image>
           <ImageTextContainer>
-            <ImageP>Diente de león</ImageP>
-            <ImageP>Sumi - e tinta y acuarela sobre papel de arroz.</ImageP>
-            <ImageP>Lámina 17 x 44 cm.</ImageP>
+          <ImageP>Peonía en jarrón</ImageP>
+            <ImageP>Tinta y acuarela sobre papel de guía telefónica.</ImageP>
+            <ImageP>Lámina 17,5 x 24,5 cm.</ImageP>
+
           </ImageTextContainer>
         </ImageContainer>
       </ImageSection>
@@ -107,9 +108,10 @@ const GalleryFlores = () => {
           </ImageBg>
 
           <ImageTextContainer>
-            <ImageP>Crisantemos amarillos</ImageP>
+          <ImageP>Diente de león</ImageP>
             <ImageP>Sumi - e tinta y acuarela sobre papel de arroz.</ImageP>
-            <ImageP>Lámina 32 x 24 cm.</ImageP>
+            <ImageP>Lámina 17 x 44 cm.</ImageP>
+
           </ImageTextContainer>
         </ImageContainer>
         <ImageContainer>
@@ -123,9 +125,9 @@ const GalleryFlores = () => {
             ></Image>
           </ImageBg>
           <ImageTextContainer>
-            <ImageP>Flores de frutal</ImageP>
-            <ImageP>Sumi-e: tinta china sobre papel de arroz</ImageP>
-            <ImageP>20x30cm</ImageP>
+          <ImageP>Crisantemos amarillos</ImageP>
+            <ImageP>Sumi - e tinta y acuarela sobre papel de arroz.</ImageP>
+            <ImageP>Lámina 32 x 24 cm.</ImageP>
           </ImageTextContainer>
         </ImageContainer>
       </ImageSection>
