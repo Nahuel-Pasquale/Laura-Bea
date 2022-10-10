@@ -117,7 +117,7 @@ export const Works = () => {
             <Work background="url('/images/home/cuadrado flores_Mesa de trabajo 1.jpg')">
                 <WorkFilter />
                 <WorkTitle hoverWidth="6.5vw" hoverWidthR="13vw" widthR="0%" hoverLeft="0" hover="var(--dark)" top="5vw" topR="10vw" left="33vw" leftR="70vw">
-                    <Link to="/trabajos/flores"> <span> Flores {'>'} </span>  </Link>
+                    <Link to="/trabajos/flores"> <span> Flores{'>'} </span> </Link>
                 </WorkTitle>
             </Work>
             <Work background="var(--lightGrey)">

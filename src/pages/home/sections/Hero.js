@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 const HeroContainer = styled.div`
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -71,34 +72,59 @@ const HeroSignature = styled.p`
 
 const HeroPNG = styled.div`
     position: absolute;
-    top: 23vw;
+    bottom: -10vw;
+    right: -35vw;
     z-index: 999;
-    right: 4vw;
     background: url('/images/sobre-mi/figura2-sobre-mi.png') no-repeat;
     background-size: contain;
+    background-position: center;
     width: 33vw;
     height: 34vw;
+    @media (max-width: 1350px) {
+        bottom: -35%;
+        width: 35vw;
+        height: 60vw;
+    }
     @media (max-width: 1100px) {
-        top: 40%;
+        bottom: -60%;
+        width: 40vw;
+        height: 70vw;
+    }
+    @media (max-width: 910px) {
+        bottom: -50%;
         width: 40vw;
         height: 70vw;
     }
     @media (max-width: 810px) {
-        top: 48%;
+        bottom: -52%;
+        right: -15vw;
         width: 35vw;
+        height: 70vw;
     }
-    @media (max-width: 740px) {
-        top: 55%;
+    @media (max-width: 770px) {
+        bottom: -40%;
         width: 40vw;
     }
+    @media (max-width: 600px) {
+        bottom: -30%;
+        right: -5vw;
+    }
     @media (max-width: 560px) {
-        top: 35%;
+        bottom: -60%;
+        right: 0vw;
     }
-    @media (max-width: 435px) {
-        top: 40%;
+    @media (max-width: 530px) {
+        bottom: -50%;
+        right: 0vw;
     }
-    @media (max-width: 395px) {
-        top: 50%;
+    @media (max-width: 460px) {
+        bottom: -40%;
+    }
+    @media (max-width: 420px) {
+        bottom: -25%;
+    }
+    @media (max-width: 320px) {
+        bottom: -20%;
     }
 `
 
@@ -107,8 +133,8 @@ const HeroPNG = styled.div`
 export const Hero = () => {
   return (
     <>
-        <HeroPNG />
         <HeroContainer>
+        <HeroPNG />
             <HeroTitle>
                 [ Diseño de estampas, patrones y superficies ]
             </HeroTitle>
