@@ -57,6 +57,9 @@ const WorkTitle = styled.h3`
     left: ${(props) => (props.left)};
     bottom: ${(props) => (props.bottom)};
     z-index: 20;
+    span {
+        color: black;
+    }
     cursor: pointer;
     ::before{ 
         content: "";
@@ -114,7 +117,7 @@ export const Works = () => {
             <Work background="url('/images/home/cuadrado flores_Mesa de trabajo 1.jpg')">
                 <WorkFilter />
                 <WorkTitle hoverWidth="6.5vw" hoverWidthR="13vw" widthR="0%" hoverLeft="0" hover="var(--dark)" top="5vw" topR="10vw" left="33vw" leftR="70vw">
-                    <Link to="/trabajos/flores">  Flores{'>'} </Link>
+                    <Link to="/trabajos/flores"> <span> Flores {'>'} </span>  </Link>
                 </WorkTitle>
             </Work>
             <Work background="var(--lightGrey)">
@@ -125,7 +128,7 @@ export const Works = () => {
             </Work>
             <Work background="white">
                 <WorkTitle hoverWidth="8.6vw" hoverWidthR="16.4vw" hover="var(--dark)" widthR="20%" top="5vw" topR="10vw" right="32vw" rightR="70vw">
-                    <Link to="/trabajos/pastizal"> {'<'} Pastizal </Link>
+                    <Link to="/trabajos/pastizal"> <span> {'<'} Pastizal </span> </Link>
                 </WorkTitle>
                 <WorkImg width="25vw" height="30vw" widthR="45vw" heightR="60vw" src="/images/home/figura pastizal home.jpg" />
             </Work>

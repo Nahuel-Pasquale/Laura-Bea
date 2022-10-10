@@ -37,7 +37,8 @@ const DesignContainer = styled.section`
         margin-left: 10%;
         gap: 40px;
         justify-content: flex-start;
-        padding-top: 20px;
+        padding: 50px 20px;
+        /* padding-top: 50px; */
     }
 `    
 const DesignTitle = styled.h2`
@@ -125,7 +126,7 @@ const HeroPng = styled.div`
     @media (max-width: 420px) {
         /* width: 60vw;
         height: 60vw; */
-        bottom: -10vw;
+        bottom: -13vw;
         /* left: -20vw; */
     }
 `
