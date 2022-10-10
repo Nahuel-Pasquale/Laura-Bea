@@ -1,9 +1,12 @@
-import React from 'react'
+import React, { useState,useEffect } from 'react'
 import styled from 'styled-components'
-import { regexEmail, regexName } from '../../../config/config'
-import { useForm } from '../../../hooks/useForm'
+import { sendMail } from "../../../helpers/email";
+import { useForm } from "react-hook-form";
+import { yupResolver } from "@hookform/resolvers/yup";
+import { schema } from "../../../helpers/schema";
+import Input from '../../../components/input/Input';
+import { ClipLoader } from "react-spinners";
 
-let errors = {};
 
 const Consulta = styled.p`
     font-family: 'Manrope-bold';
@@ -103,20 +106,6 @@ const FormName = styled.div`
     align-items: flex-start;
     gap: 20px;
 `
-const FormNameDiv = styled.div`
-    width: ${props => props.width};
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 10px;
-`
-
-const FormNameInput = styled.input`
-    width: 100%;
-    height: 35px;
-    border: ${props => props.errors ? '1px solid red' : '1px solid var(--dark)'};
-`
 
 const FormInputSubmit = styled.input`
     width: 30%;
@@ -126,66 +115,51 @@ const FormInputSubmit = styled.input`
     cursor: pointer;
     border: 1px solid var(--dark);    
 `
-const FormNameTextArea = styled.textarea`
-    width: 100%;
-    height: 120px;
-    border: ${props => props.errors ? '1px solid red' : '1px solid var(--dark)'};
-    resize: none;
-`
 
-const FormNameLabel = styled.label`
-    font-family: 'Manrope-regular';
+const FormSuccess = styled.p`
+    color: green;
     font-size: 0.8rem;
-`
-
-const ErrorMsg = styled.p`
-    color: red;
     font-family: 'Manrope-regular';
-    font-size: 0.8rem;
-`
+`;
 
-const initialForm = {
-    name: '',
-    surname:'',
-    email: '',
-    subject: '',
-    message: '',
-}
-
-export const validaciones = (form) => {
-    let testName = regexName;
-    let testEmail = regexEmail;
-
-    if (!form.name.trim()) {
-        errors.name = 'El nombre es obligatorio';
-    } else if (!testName.test(form.name.trim())) {
-        errors.name = 'El nombre no es válido';
-    }
-    if (!form.email.trim()) {
-        errors.email = 'El email es obligatorio';
-    } else if (!testEmail.test(form.email.trim())) {
-        errors.email = 'El email no es válido';
-    }
-    if (!form.subject.trim()) {
-        errors.subject = 'El asunto no es válido';
-    }
-    if (!form.message.trim()) {
-        errors.message = 'El mensaje no es válido';
-    }
-    return errors;
-}
-
-export const ContactForm = () => {
-    const { 
-        form, 
-        errors, 
-        isLoading, 
-        response, 
-        handleBlur,
-        handleChange, 
-        handleSubmit 
-    } = useForm(initialForm, validaciones);
-
+export const ContactForm =  () => {
+    const [isValidForm, setIsValidForm] = useState(false);
+    const {
+        handleSubmit,
+        formState: { errors },
+        control,
+        reset,
+    } = useForm({
+        mode: "onSubmit",
+        reValidateMode: "onSubmit",
+        resolver: yupResolver(schema),
+    });
+    const onSubmit = async (data) => {
+        const { name, surname, email, msg } = data;
+        console.log(data);
+        setIsValidForm(!isValidForm);
+        let templateParams = {
+            name: name,
+            surname: surname,
+            email: email,
+            msg: msg,
+        };
+        sendMail(templateParams);
+        reset({ email: "", name: "", surname: "", msg: "" });
+    };
+    useEffect(() => {
+        let interval;
+        interval = setTimeout(() => {
+            if(isValidForm){
+                setIsValidForm(!isValidForm)
+            }  
+        }, 2000);
+        return () => {
+            clearInterval(interval);
+        };
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [isValidForm]);
+    
     return (
     <>
         <Consulta>
@@ -200,82 +174,67 @@ export const ContactForm = () => {
                     Stay in touch!
                 </FormInfoP>
             </FormInfo>
-            <Form id="form" onSubmit={handleSubmit}>
-                <FormName>
-                    <FormNameDiv width="50%">
-                        <FormNameLabel htmlFor="name">
-                            Nombre
-                        </FormNameLabel>
-                        <FormNameInput 
-                            errors={errors.name === 'El nombre es obligatorio' || errors.name === 'El nombre no es válido'}
-                            type="text" 
-                            id="name"
-                            name="name"
-                            onChange={handleChange} 
-                            onBlur={handleBlur} 
-                            value={form.name} 
-                            />
-                        {errors.name && <ErrorMsg>{errors.name}</ErrorMsg>}
-                    </FormNameDiv>
-                    <FormNameDiv width="50%">
-                        <FormNameLabel htmlFor="apellido">
-                            Apellido
-                        </FormNameLabel>
-                        <FormNameInput 
-                            type="text" 
-                            name="surname"
-                            id="apellido"
-                            onChange={handleChange} 
-                            value={form.surname} 
-                            />
-                    </FormNameDiv>
-                </FormName>
-                <FormNameDiv width="100%">
-                    <FormNameLabel htmlFor="email">
-                        E-mail
-                    </FormNameLabel>
-                    <FormNameInput 
-                            errors={errors.email === 'El email es obligatorio' || errors.email === 'El email no es válido'}
-                            type="email" 
-                            name="email"
-                            id="email"
-                            onChange={handleChange} 
-                            onBlur={handleBlur}
-                            value={form.email} 
-                            />
-                    {errors.email && <ErrorMsg> {errors.email} </ErrorMsg>}
-                </FormNameDiv>
-                <FormNameDiv width="100%">
-                    <FormNameLabel htmlFor="asunto">
-                        Asunto
-                    </FormNameLabel>
-                    <FormNameInput 
-                            errors={errors.subject === 'El asunto no es válido'}
-                            type="text" 
-                            name="subject"
-                            id="asunto" 
-                            onChange={handleChange} 
-                            onBlur={handleBlur} 
-                            value={form.subject} 
-                            />
-                    {errors.subject && <ErrorMsg>{errors.subject}</ErrorMsg>}
-                </FormNameDiv>
-                <FormNameDiv width="100%">
-                    <FormNameLabel htmlFor="msg">
-                        Mensaje
-                    </FormNameLabel>
-                    <FormNameTextArea 
-                            errors={errors.message === 'El mensaje no es válido'}
-                            id="msg" 
-                            name="message"
-                            value={form.message}
-                            onChange={handleChange}
-                            onBlur={handleBlur}
-                            />
-                    {errors.message && <ErrorMsg>{errors.message}</ErrorMsg>}
-                </FormNameDiv>
-                <FormInputSubmit type="submit" value="Enviar" />
-            </Form>
+            <Form
+            autocomplete="off"
+            noValidate
+            onSubmit={handleSubmit(onSubmit)}
+            name="contact"
+        >
+            <FormName>
+            <Input
+                id="name"
+                name="name"
+                width="50%"
+                type="text"
+                placeholder="Nombre"
+                label="Nombre"
+                control={control}
+                error={errors.name}
+            />
+            <Input
+                id="surname"
+                name="surname"
+                width="50%"
+                type="text"
+                placeholder="Apellido"
+                label="Apellido:"
+                control={control}
+                error={errors.surname}
+            />
+            </FormName>
+            <Input
+                id="email"
+                name="email"
+                width="100%"
+                type="email"
+                placeholder="Email"
+                label="Email:"
+                control={control}
+                error={errors.email}
+            />
+            <Input
+                id="subject"
+                name="subject"
+                width="100%"
+                type="text"
+                placeholder="Asunto"
+                label="Asunto:"
+                control={control}
+            />
+            <Input
+                textArea
+                id="msg"
+                name="msg"
+                width="100%"
+                type="text"
+                placeholder="Mensaje"
+                label="Mensaje:"
+                control={control}
+                error={errors.msg}
+            />
+            <FormInputSubmit type="submit" value="Enviar" />
+            {isValidForm && <FormSuccess>El mensaje se ha enviado correctamente</FormSuccess> }
+        </Form>
         </FormContainer>
     </>
     )
