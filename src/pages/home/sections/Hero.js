@@ -121,7 +121,7 @@ const HeroPNG = styled.div`
         bottom: -40%;
     }
     @media (max-width: 420px) {
-        bottom: -25%;
+        bottom: -30%;
     }
     @media (max-width: 320px) {
         bottom: -20%;
