@@ -112,7 +112,13 @@ const FormInputSubmit = styled.input`
 
 const FormSuccess = styled.p`
   color: green;
-  font-size: 0.8rem;
+  font-size: 1rem;
+  font-family: "Manrope-regular";
+`;
+
+const FormError = styled.p`
+  color: red;
+  font-size: 1rem;
   font-family: "Manrope-regular";
 `;
 
@@ -143,9 +149,7 @@ export const ContactForm = () => {
   useEffect(() => {
     let interval;
     interval = setTimeout(() => {
-      if (isValidForm) {
-        setIsValidForm(null);
-      }
+      setIsValidForm(null);
     }, 2000);
     return () => {
       clearInterval(interval);
@@ -222,9 +226,11 @@ export const ContactForm = () => {
             error={errors.msg}
           />
           <FormInputSubmit type="submit" value="Enviar" />
-          {isValidForm && (
+          {isValidForm ? (
             <FormSuccess>El mensaje se ha enviado correctamente</FormSuccess>
-          )}
+          ) : isValidForm === false ? (
+            <FormError>Error de servidor, intente mas tarde.</FormError>
+          ) : null}
         </Form>
       </FormContainer>
     </>

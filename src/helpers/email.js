@@ -17,6 +17,7 @@ export const sendMail = (templateParams, setFn, resetFn) => {
         }
       },
       function (error) {
+        setFn(false);
         console.log("FAILED...", error);
       }
     );
