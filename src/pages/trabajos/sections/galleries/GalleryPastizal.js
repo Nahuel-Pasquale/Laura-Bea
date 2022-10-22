@@ -5,8 +5,9 @@ const GalleryPastizal = () => {
   return (
     <Section>
       <Paragraph>
-        Las piezas de esta serie están realizadas bajo las técnicas mixtas de
-        pintura en acuarela y tinta china.
+        Imágenes que desarrollé para la primera línea de +casa arte. Acá 
+        les muestro algunas de las versiones del tema y cómo quedan en diferentes soportes. 
+        Una forma de mostrar las posibilidades de un motivo.
       </Paragraph>
       <ImageSection border={"1px solid black"}>
         <ImageContainer>
@@ -20,9 +21,9 @@ const GalleryPastizal = () => {
           </ImageBg>
           <ImageTextContainer>
             <ImageP>Espiga 2020</ImageP>
-            <ImageP>Acuarela 21x29 cm.</ImageP>
+            <ImageP>Acuarela 21 x 29 cm</ImageP>
             <ImageP>Enmarcada con varilla de kiri natural y paspartú </ImageP>
-            <ImageP>37x44 cm.</ImageP>
+            <ImageP>37 x 44 cm</ImageP>
           </ImageTextContainer>
         </ImageContainer>
         <ImageContainer>
@@ -33,8 +34,8 @@ const GalleryPastizal = () => {
           </ImageBg>
           <ImageTextContainer>
             <ImageP>Almohadón Espigas</ImageP>
-            <ImageP>Sublimación sobre pana .</ImageP>
-            <ImageP>50x50 cm</ImageP>
+            <ImageP>Sublimación sobre pana</ImageP>
+            <ImageP>50 x 50 cm</ImageP>
           </ImageTextContainer>
         </ImageContainer>
       </ImageSection>
@@ -52,7 +53,7 @@ const GalleryPastizal = () => {
             <ImageP>Espigado 2020</ImageP>
             <ImageP>Tinta negra 21x29 cm.</ImageP>
             <ImageP>Enmarcado con varilla de kiri natural y paspartú</ImageP>
-            <ImageP>37x44 cm.</ImageP>
+            <ImageP>37 x 44 cm</ImageP>
           </ImageTextContainer>
         </ImageContainer>
         <ImageContainer>
@@ -67,7 +68,7 @@ const GalleryPastizal = () => {
           <ImageTextContainer>
             <ImageP>Pastizal n°1</ImageP>
             <ImageP>Imagen digital escalable</ImageP>
-            <ImageP>20x20 cm.</ImageP>
+            <ImageP>20 x 20 cm</ImageP>
           </ImageTextContainer>
         </ImageContainer>
       </ImageSection>
@@ -80,7 +81,7 @@ const GalleryPastizal = () => {
           <ImageTextContainer>
             <ImageP>Pastizal 2020</ImageP>
             <ImageP>Tinta</ImageP>
-            <ImageP>21x29 cm.</ImageP>
+            <ImageP>21 x 29 cm</ImageP>
           </ImageTextContainer>
         </ImageContainer>
         <ImageContainer>
@@ -88,7 +89,7 @@ const GalleryPastizal = () => {
           <ImageTextContainer>
             <ImageP>Pañuelo Pastizal</ImageP>
             <ImageP>Sublimación sobre creppe de gasa</ImageP>
-            <ImageP>100x140 cm.</ImageP>
+            <ImageP>100 x 140 cm</ImageP>
           </ImageTextContainer>
         </ImageContainer>
       </ImageSection>

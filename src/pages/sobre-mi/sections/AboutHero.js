@@ -106,8 +106,8 @@ const AboutHero = () => {
           <HeroInfoDescription>
             Bienvenidos a mi espacio digital artístico en donde encontrarán un
             breve recorrido por mi exploración entre el diseño y las artes
-            visuales. Combinando técnicas que van desde las acuarelas, la
-            pintura con tinta china y los procesos digitales.
+            visuales. Combinando técnicas analógicas como la pintura con tinta
+            y acuarela y técnicas digitales.
           </HeroInfoDescription>
         </HeroInfo>
       </Section>

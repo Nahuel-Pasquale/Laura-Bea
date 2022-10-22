@@ -141,10 +141,10 @@ export const Design = () => {
             <DesignP>
                 Es generar una imagen para ser reproducida en una superficie.
                 No es una aplicación directa como puede ser la pintura. Es un proceso
-                técnico y/o mecánico que puede ir desde el sello hjasta la impresión digital.
+                técnico y/o mecánico que puede ir desde el sello hasta la impresión digital.
             </DesignP>
             <DesignP>
-                Por eso creo que el diseño también puede ser llamado arte cuando logra su máxima expresión.
+                Creo que el diseño también puede ser llamado arte cuando logra su máxima expresión.
             </DesignP>
             <DesignP>
                 Pinto, fotografío o escaneo, compongo digitalmente, para luego mandar a estampar por sublimación 

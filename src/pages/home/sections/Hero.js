@@ -141,9 +141,9 @@ export const Hero = () => {
             <HeroP>
                 Si la superficie coincide con el alma del objeto,
 
-                se produce una síntesis perfecta que se llama belleza.
+                se produce una síntesis perfecta que yo llamo belleza.
 
-                Sino, se produce un contrasentido, una instabilidad,
+                Si no, se produce un contrasentido, una instabilidad,
 
                 una incomodidad.
             </HeroP>

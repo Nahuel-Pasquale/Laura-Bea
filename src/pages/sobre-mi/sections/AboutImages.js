@@ -167,7 +167,7 @@ const AboutImages = () => {
               A los 23 años me recibí de diseñadora en comunicación visual en la
               Facultad de Bellas Artes de la UNLP. A partir de allí, usé el
               dibujo para planificar, proyectar, comunicar, proponer. Primero en
-              2D en trabajos de diseño gráfico y luego en 3D cuando en el nuevo
+              2D en trabajos de diseño gráfico y luego en 3D, cuando en el nuevo
               milenio, comencé a dedicarme al diseño de interiores.
             </Paragraph>
           </ImageDescription>
@@ -220,7 +220,7 @@ const AboutImages = () => {
           No sé, un tango para mí. Una mezcla de tragedia y arte. Y así fue que
           con Karin Espósito, iniciamos el proyecto de +casa. Ella ceramista, yo
           diseñadora de las estampas y motivos de las líneas que creamos: El
-          pastizal, GEO y RASGo. Hasta ahora. Acá les comparto el resultado de
+          pastizal, GEO y RASGō. Hasta ahora. Acá les comparto el resultado de
           mis últimos estudios de diseño textil digital, donde fusiono lo que
           pinto o dibujo, con el diseño digital en piezas listas para estampar.
         </Paragraph>
