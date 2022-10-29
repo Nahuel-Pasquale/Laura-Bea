@@ -51,7 +51,7 @@ const GalleryPastizal = () => {
           </ImageBg>
           <ImageTextContainer>
             <ImageP>Espigado 2020</ImageP>
-            <ImageP>Tinta negra 21x29 cm.</ImageP>
+            <ImageP>Tinta negra 21 x 29 cm</ImageP>
             <ImageP>Enmarcado con varilla de kiri natural y paspartú</ImageP>
             <ImageP>37 x 44 cm</ImageP>
           </ImageTextContainer>

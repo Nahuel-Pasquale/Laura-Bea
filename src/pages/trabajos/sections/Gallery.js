@@ -17,7 +17,7 @@ export const Paragraph = styled.p`
   justify-content: center;
   line-height: 2rem;
   font-size: 1.1rem;
-  text-align: justify;
+  text-align: left;
   font-family: "RobotoMono-regular";
   width: 65%;
   @media (max-width: 1280px) {

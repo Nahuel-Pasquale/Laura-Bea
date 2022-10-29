@@ -5,7 +5,7 @@ const GalleryGZen = () => {
   return (
     <Section>
       <Paragraph>
-      Las piezas de esta serie son digital, listas y están realizadas bajo las técnicas mixtas de acuarela, 
+      Las piezas de esta serie son digitales, listas y están realizadas bajo las técnicas mixtas de acuarela, 
       sumi-e y diseño digital. Todas listas para ser impresas en distintas superficies: papel, papel mural, 
       textiles, PVC, alto impacto, alfombra vinílica, MDF.
       </Paragraph>

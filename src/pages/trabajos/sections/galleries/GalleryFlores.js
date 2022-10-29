@@ -13,7 +13,7 @@ const GalleryFlores = () => {
           <Image src="/images/works/IMG_7264.jpg"></Image>
           <ImageTextContainer>
             <ImageP>Flores en cuenco</ImageP>
-            <ImageP>Sumi-e tinta china sobre papel de guía telefónica</ImageP>
+            <ImageP>Sumi-e: tinta china sobre papel de guía telefónica</ImageP>
             <ImageP>18 x 24 cm</ImageP>
           </ImageTextContainer>
         </ImageContainer>
@@ -106,7 +106,7 @@ const GalleryFlores = () => {
           </ImageBg>
           <ImageTextContainer>
           <ImageP>Diente de león</ImageP>
-            <ImageP>Sumi-e y tinta sobre papel de arroz</ImageP>
+            <ImageP>Sumi-e: y tinta sobre papel de arroz</ImageP>
             <ImageP>Lámina 17 x 44 cm</ImageP>
           </ImageTextContainer>
         </ImageContainer>
@@ -121,7 +121,7 @@ const GalleryFlores = () => {
           </ImageBg>
           <ImageTextContainer>
           <ImageP>Crisantemos amarillos</ImageP>
-            <ImageP>Sumi-e, tinta y acuarela sobre papel de arroz.</ImageP>
+            <ImageP>Sumi-e: tinta y acuarela sobre papel de arroz.</ImageP>
             <ImageP>Lámina 32 x 24 cm</ImageP>
           </ImageTextContainer>
         </ImageContainer>
@@ -153,7 +153,7 @@ const GalleryFlores = () => {
           </ImageBg>
           <ImageTextContainer>
             <ImageP>Peonía con pimpollo</ImageP>
-            <ImageP>Sumi-e tinta y acuarela sobre papel de arroz.</ImageP>
+            <ImageP>Sumi-e: tinta y acuarela sobre papel de arroz.</ImageP>
             <ImageP>Lámina 29,5 x 34,5 cm</ImageP>
           </ImageTextContainer>
         </ImageContainer>

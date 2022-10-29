@@ -22,7 +22,7 @@ const GalleryUniversoJapon = () => {
             ></Image>
             </ImageBg>
           <ImageTextContainer>
-            <ImageP>Agua en Japón</ImageP>
+            <ImageP>Digital en Japón</ImageP>
             <ImageP>Imagen difital con rapport</ImageP>
             <ImageP>32 x 32 escalable</ImageP>
           </ImageTextContainer>
@@ -30,7 +30,7 @@ const GalleryUniversoJapon = () => {
         <ImageContainer>
         <ImageBg >
             <Image
-              src="/images/works/universo-japon/02.png"
+              src="/images/works/universo-japon/02.PNG"
               height={"330px"}
               deskHeight={"280px"}
               width={"100%"}
@@ -48,7 +48,7 @@ const GalleryUniversoJapon = () => {
         <ImageContainer>
         <ImageBg >
             <Image
-              src="/images/works/universo-japon/03.jpg"
+              src="/images/works/universo-japon/03.JPG"
               height={"330px"}
               deskHeight={"280px"}
               width={"100%"}

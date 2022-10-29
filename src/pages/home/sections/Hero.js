@@ -143,7 +143,7 @@ export const Hero = () => {
 
                 se produce una síntesis perfecta que yo llamo belleza.
 
-                Si no, se produce un contrasentido, una instabilidad,
+                Si no, se genera un contrasentido, una instabilidad,
 
                 una incomodidad.
             </HeroP>
