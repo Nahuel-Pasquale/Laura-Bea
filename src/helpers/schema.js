@@ -6,6 +6,11 @@ export const schema = Yup.object().shape({
     .uppercase()
     .trim()
     .transform((str) => str.replace(/ {2,}/g, " ")),
+  subject: Yup.string()
+    .required("Campo requerido")
+    .uppercase()
+    .trim()
+    .transform((str) => str.replace(/ {2,}/g, " ")),
   surname: Yup.string()
     .required("Campo requerido")
     .uppercase()

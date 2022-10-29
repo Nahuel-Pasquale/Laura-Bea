@@ -92,7 +92,7 @@ export const Footer = () => {
       <FooterContainer>
         <FooterLocation>
           <FooterLocationP size="0.8rem">lauragut53@gmail.com</FooterLocationP>
-          <FooterLocationP size="0.8rem">+11 234456789</FooterLocationP>
+          <FooterLocationP size="0.8rem">+549 2214 28-0933</FooterLocationP>
           <FooterLocationP size="0.8rem">
             Buenos Aires, Argentina.
           </FooterLocationP>

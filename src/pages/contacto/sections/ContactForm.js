@@ -134,12 +134,13 @@ export const ContactForm = () => {
     resolver: yupResolver(schema),
   });
   const onSubmit = (data) => {
-    const { name, surname, email, msg } = data;
+    const { name, surname, email, msg, subject } = data;
     console.log(data);
     let templateParams = {
       name: name,
       surname: surname,
       email: email,
+      subject: subject,
       msg: msg,
     };
     sendMail(templateParams, setIsValidForm, reset);
@@ -211,6 +212,7 @@ export const ContactForm = () => {
             placeholder="Asunto"
             label="Asunto:"
             control={control}
+            error={errors.subject}
           />
           <Input
             textArea
