@@ -82,6 +82,8 @@ const FooterRedesIcons = styled.div`
   }
 `;
 
+const mensaje = 'Hola Laura, quisiera recibir mas información'
+
 export const Footer = () => {
   const openPage = (url) => {
     window.open(url, "_blank");
@@ -102,14 +104,15 @@ export const Footer = () => {
         </FooterLogo>
         <FooterRedes>
           <FooterRedesIcons>
+
             <AiOutlineInstagram
-              onClick={() => openPage("https://www.google.com/")}
+              onClick={() => openPage("https://instagram.com/laurabea.1?igshid=YmMyMTA2M2Y=")}
             />
-            <AiOutlineWhatsApp
-              onClick={() => openPage("https://www.google.com/")}
+            <AiOutlineWhatsApp 
+              onClick={() => openPage(`https://wa.me/541151767189?text=${mensaje}`)}
             />
             <RiFacebookCircleLine
-              onClick={() => openPage("https://www.google.com/")}
+              onClick={() => openPage("https://www.facebook.com/")}
             />
           </FooterRedesIcons>
           <FooterLocationP size="0.7rem">

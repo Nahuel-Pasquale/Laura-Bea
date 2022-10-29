@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 // const HeroPng = styled.div`
@@ -77,6 +78,7 @@ const DesignPBold = styled.p`
     font-family: 'RobotoMono-Bold';
     text-align: right;
     position: relative;
+    color: var(--dark);
     cursor: pointer;
     ::before{ 
         content: "";
@@ -151,7 +153,7 @@ export const Design = () => {
                 o estampa digital directa sobre: papel, papel tapiz, vinilos, PVC, alto impacto, madera y textiles
             </DesignP>
         </DesignPContainer>
-        <DesignPBold>Mis diseños</DesignPBold>
+        <Link to='/trabajos/flores'> <DesignPBold> Mis diseños </DesignPBold> </Link>
         </DesignContainer>
     </>
     );

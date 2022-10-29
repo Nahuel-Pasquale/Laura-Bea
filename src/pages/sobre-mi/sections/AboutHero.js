@@ -81,7 +81,7 @@ const HeroInfoDescription = styled.p`
   font-size: 0.9rem;
   font-family: "RobotoMono-bold";
   align-self: center;
-  text-align: justify;
+  text-align: left;
   line-height: 1.8rem;
   @media (max-width: 992px) {
     width: 90%;

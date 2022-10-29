@@ -73,7 +73,7 @@ const Paragraph = styled.p`
   line-height: 2rem;
   letter-spacing: 1px;
   width: ${(props) => props.width};
-  text-align: justify;
+  text-align: left;
   margin-top: ${(props) => props.mt};
   @media (max-width: 992px) {
     width: ${(props) => props.responsivewidth};
@@ -226,7 +226,7 @@ const AboutImages = () => {
         </Paragraph>
         <MoreContainer>
           <Paragraph selfalign={"flex-end"}>
-            Conoce <Span> <a href="https://www.google.com/">+casa arte</a> </Span> {">"}
+            Conoce <Span> <a href="https://instagram.com/mascasaarte?igshid=YmMyMTA2M2Y=">+casa arte</a> </Span> {">"}
           </Paragraph>
           <Figure
             src="/images/sobre-mi/figura3-sobre-mi.png"
