@@ -92,7 +92,7 @@ const GalleryEstampas = () => {
               src="/images/works/estampados/07.jpg"
               height={"280px"}
               deskHeight={"280px"}
-              width={"120%"}
+              // width={"120%"}
             ></Image>
           </ImageBg>
           <ImageTextContainer>
@@ -139,7 +139,7 @@ const GalleryEstampas = () => {
               src="/images/works/estampados/10.JPEG"
               height={"260px"}
               deskHeight={"280px"}
-              width={"120%"}          
+              // width={"120%"}          
             ></Image>
           </ImageBg>
           <ImageTextContainer>

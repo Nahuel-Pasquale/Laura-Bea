@@ -65,7 +65,7 @@ const WorkNavbar = () => {
             <NavItem> <Link to="/trabajos/estampados">Estampados</Link></NavItem>
             <NavItem> <Link to="/trabajos/geometria-zen">Geometría Zen</Link></NavItem>
             <NavItem> <Link to="/trabajos/pastizal">Pastizal</Link></NavItem>
-            <NavItem> <Link to="/trabajos/universo-japon">Universo Japon</Link></NavItem>
+            <NavItem> <Link to="/trabajos/universo-japon">Universo Japón</Link></NavItem>
         </NavbarList>
         </WorkNavbarUI>
   )
