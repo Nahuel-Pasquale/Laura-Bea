@@ -67,8 +67,6 @@ const GalleryUniversoJapon = () => {
               src="/images/works/universo-japon/04.jpeg"
               height={"330px"}
               deskHeight={"280px"}
-              width={"100%"}
-              
             ></Image>
           </ImageBg>
           <ImageTextContainer>

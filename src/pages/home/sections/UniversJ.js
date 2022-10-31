@@ -71,7 +71,7 @@ export const UniversJ = () => {
         <UniversJContainer>
             <UniversJFilter />
             <UniversJTitle>
-                {'<'} Universo Japones
+                {'<'} Universo Japón
             </UniversJTitle>
         </UniversJContainer>
     </>

@@ -8,7 +8,7 @@ const HeroContainer = styled.div`
     align-items: flex-start;
     justify-content: center;
     padding-left: 10%;
-    width: 55%;
+    width: 65%;
     height: 80vh;
     gap: 50px;
     @media (max-width: 1100px) {
@@ -40,7 +40,7 @@ const HeroContainer = styled.div`
 const HeroTitle = styled.h1`
     font-size: 1.5rem;
     font-family: 'Manrope-light';
-    text-align: justify;
+    text-align: left;
     word-spacing: 14px;
     @media (max-width: 560px) {
         font-size: 0.6rem;
@@ -49,11 +49,13 @@ const HeroTitle = styled.h1`
 
 const HeroP = styled.p`
     font-size: 1rem;
+    width: 90%;
     font-family: 'RobotoMono-light';
     /* text-align: left; */
     letter-spacing: 2px;
     line-height: 35px;
     @media (max-width: 560px) {
+        width: 100%;
         font-size: 0.55rem;
         font-family: 'RobotoMono-Regular';
         line-height: 25px;
@@ -73,7 +75,7 @@ const HeroSignature = styled.p`
 const HeroPNG = styled.div`
     position: absolute;
     bottom: -10vw;
-    right: -35vw;
+    right: -30vw;
     z-index: 999;
     background: url('/images/sobre-mi/figura2-sobre-mi.png') no-repeat;
     background-size: contain;

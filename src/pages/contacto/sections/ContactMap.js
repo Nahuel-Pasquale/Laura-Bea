@@ -77,6 +77,9 @@ const ContactInfoPContainer = styled.div`
 const ContactInfoP = styled.p`
   font-family: 'Manrope-regular';
   font-size: 1rem;
+  a{
+    color: var(--dark);
+  }
   @media (max-width: 992px) {
     
   }
@@ -117,7 +120,7 @@ export const ContactSectionMap = () => {
                   lauragut53@gmail.com
                 </ContactInfoP>
                 <ContactInfoP>
-                  @laurabea.1
+                  <a href="https://instagram.com/laurabea.1/" target="_blank" rel='noreferrer'> @laurabea.1 </a>
                 </ContactInfoP>
               </ContactInfoPContainer>
             </ContactInfo>
