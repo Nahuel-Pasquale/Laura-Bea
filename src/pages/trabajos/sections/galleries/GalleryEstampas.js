@@ -22,7 +22,7 @@ const GalleryEstampas = () => {
           </ImageBg>
           <ImageTextContainer>
             <ImageP>Estampado Peonías Pop</ImageP>
-            <ImageP>Sumi-é con tinta y acuarelas sobre papel de arroz.</ImageP>
+            <ImageP>Sumi-é con tinta y acuarelas sobre papel de arroz</ImageP>
             <ImageP>Collage digital realizado con Photoshop</ImageP>
           </ImageTextContainer>
         </ImageContainer>
@@ -47,8 +47,8 @@ const GalleryEstampas = () => {
           </ImageBg>
           <ImageTextContainer>
             <ImageP>Estampado Peonías</ImageP>
-            <ImageP>Manchas de tinta sobre papel para acuarela sin textura. Collage ditgital realizado con Photoshop</ImageP>
-            <ImageP></ImageP>
+            <ImageP>Manchas de tinta sobre papel para acuarela sin textura</ImageP>
+            <ImageP>Collage ditgital realizado con Photoshop</ImageP>
           </ImageTextContainer>
         </ImageContainer>
         <ImageContainer>
@@ -72,8 +72,8 @@ const GalleryEstampas = () => {
           </ImageBg>
           <ImageTextContainer>
             <ImageP>Estampado Amapolas</ImageP>
-            <ImageP>Dibujo con tinta, pluma y marcadores sobre papel para acuarela. Redibujado digitalmente editado en Illustrator.</ImageP>
-            <ImageP></ImageP>
+            <ImageP>Dibujo con tinta, pluma y marcadores sobre papel para acuarela</ImageP>
+            <ImageP>Redibujado digitalmente editado en Illustrator</ImageP>
           </ImageTextContainer>
         </ImageContainer>
         <ImageContainer>

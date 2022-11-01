@@ -23,8 +23,8 @@ const GalleryUniversoJapon = () => {
             </ImageBg>
           <ImageTextContainer>
             <ImageP>Digital en Japón</ImageP>
-            <ImageP>Imagen difital con rapport</ImageP>
-            <ImageP>32 x 32 escalable</ImageP>
+            <ImageP>Imagen digital escalable con rapport</ImageP>
+            <ImageP>32 x 32 cm</ImageP>
           </ImageTextContainer>
         </ImageContainer>
         <ImageContainer>
@@ -71,8 +71,8 @@ const GalleryUniversoJapon = () => {
           </ImageBg>
           <ImageTextContainer>
             <ImageP>Medallón de crisantemos</ImageP>
-            <ImageP>Imagen digital</ImageP>
-            <ImageP>29 x 42 escalable</ImageP>
+            <ImageP>Imagen digital escalable</ImageP>
+            <ImageP>29 x 42 cm</ImageP>
           </ImageTextContainer>
         </ImageContainer>
       </ImageSection>
@@ -82,7 +82,7 @@ const GalleryUniversoJapon = () => {
           <ImageTextContainer>
             <ImageP>Cauce</ImageP>
             <ImageP>Estampa digital escalable</ImageP>
-            <ImageP>32 x 32</ImageP>
+            <ImageP>32 x 32 cm</ImageP>
           </ImageTextContainer>
         </ImageContainer>
         <ImageContainer>
@@ -90,7 +90,7 @@ const GalleryUniversoJapon = () => {
           <ImageTextContainer>
             <ImageP>Sello</ImageP>
             <ImageP>Estampa digital escalable</ImageP>
-            <ImageP>32 x 32</ImageP>
+            <ImageP>32 x 32 cm</ImageP>
           </ImageTextContainer>
         </ImageContainer>
       </ImageSection>
